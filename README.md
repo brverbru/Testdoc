@@ -5,7 +5,8 @@ Welcome to Cumul.io! You’ve definitely made the right choice in signing up! Yo
 
 The following guidelines will enable you to get started with exploring data yourself, without ever requiring any technical expertise!
 
-Can’t find what you were looking for in our guidelines? Drop us an email at support@cumul.io and we’ll help you out asap.
+Can’t find what you were looking for in our guidelines? Drop us an email at support@cumul.io and we’ll help you out asap. Or, at any point, you can live chat with our support team or leave feedback/report bugs using the square tabs that appear on the left-hand side of the webpage. 
+>![Feedback buttons](http://i.imgur.com/1Gh4oH0.png?1)
 
 # Getting started
 ## Quick start
@@ -25,13 +26,10 @@ Login is pretty straightforward too, just fill in your credentials or sign in wi
 ##Navigation
 
 You’ll first arrive at the overview page, which gives a summary of your latest dashboards as well as the hottest datasets available on the the platform. From here, you can navigate to tabs for your datasets and dashboards if you want to start creating visualizations, or you can access your profile using the top right icon to update personal information.
->![Overview screenshot](http://i.imgur.com/7OOQ4hu.png?1)
+>![Overview screenshot](http://i.imgur.com/m1rpojh.png?1)
 
 Under both the datasets and dashboards tab, there are different options for displaying personal data, data shared with you by others, and data available to the public. You will also find a search function to filter your datasets or dashboards using keywords. 
  
->At any point, you can live chat with our support team or leave feedback/report bugs using the square tabs that appear on the left-hand side of the webpage. 
-
->![Feedback buttons](http://i.imgur.com/1Gh4oH0.png?1)
 
 ##Notifications
 
