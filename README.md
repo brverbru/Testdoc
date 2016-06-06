@@ -18,14 +18,14 @@ Login is pretty straightforward too, just fill in your credentials or sign in wi
 
 ##Navigation
 
-![Overview screenshot](http://i.imgur.com/Uapudnt.png?1)
+>![Overview screenshot](http://i.imgur.com/Uapudnt.png?1)
  
 You’ll first arrive at the overview page, which gives a summary of your latest dashboards as well as the coolest datasets available on the the platform. From here, you can navigate to tabs for your datasets and dashboards if you want to start creating visualizations, or you can access your profile using the top right icon to update personal information.
 
 Under both the datasets and dashboards tab, there are different options for displaying personal data, data shared with you by others, and data available to the public. You will also find a search function to filter your datasets or dashboards using keywords. 
  
 >At any point, you can live chat with our support team or leave feedback/report bugs using the square tabs that appear on the left-hand side of the webpage. 
->[Feedback buttons](http://i.imgur.com/1Gh4oH0.png?1)
+>![Feedback buttons](http://i.imgur.com/1Gh4oH0.png?1)
 
 
 
