@@ -1,14 +1,13 @@
 # Cumul.io docs
 
 Welcome to Cumul.io! You’ve definitely made the right choice in signing up! You’re now on your way to having control over your data and being able to gain meaningful insights in a safe, simple and manageable way. That’s a nice feeling, right?
-
+>These are the user docs! Looking for the [API documentation>](https://www.google.com)?
 
 The following guidelines will enable you to immediately get started with exploring data yourself, without ever requiring any technical expertise!
 
 Can’t find what you were looking for in our guidelines? Drop us an email at support@cumul.io and we’ll help you out asap.
 
-!These are the user docs! Looking for the API documentation?
->[Go to API docs>](https://www.google.com)
+
  
 # Getting started
 ## Registering & sign in
