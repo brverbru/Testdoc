@@ -74,3 +74,49 @@ You can browse to select local files to upload them unto the platform, or simply
 + xlsb
 + csb
 
+###Web services
+ 
+Web services integration allows you to fetch data directly from your personal accounts where data is stored. For example, connect to your Facebook or Google Drive account. The first time you connect to each external account, you will be provided with an initial prompt to login with your credentials. 
+
+//TODO
+
+Explain what happens once you link to the account… Does it connect within the platform and provide a list of files? Or is the user directed to an external link
+Unless the process works differently for each type of connection, perhaps it is not really necessary to provide a separate description of each
+ 
+ 
+####Facebook
+####Google Analytics
+ 
+###From a data source
+
+Data source integration enables you to connect to an external data server, such as SQL Server or Oracle. 
+More details about how this connection process works?
+
+####Postgres
+####SQL server
+####DB2
+ 
+###Using the API
+·       Redirect to API documentation
+
+Can you give some details on the format/type of API used, then I can give a short summary and provide the right documentation website?
+
+##Dataset page
+###Overview of the page
+ 
+Selecting a dataset will direct you to its contents and structure. Each column displayed is a field, and each row represents one record. The charts at the top of each column show the distribution of the data contained in the field. The search function enables you to quickly find specific values. You can change the data type by selecting the data icon displayed to the left of each field name. You can edit the hierarchy, calculate a derived column or delete the row by selecting the options icon at the right of each data distribution display. 
+
+Furthermore, you can navigate to the dataset detail page, manage datasets links or share the dataset by clicking the respective links in the top right of the screen.
+
+ 
+###Data types
+
+The cumul.io platform supports several types of data: numeric, hierarchical, datetime, and topographical. A brief explanation of each type is provided below, along with links to more detailed documentation on the topic. 
+
+Numeric data is information of a measurable form. It is always collected in number form, although there are other types of data that can appear in number form. An example of numerical data would be the number of software licenses sold by a company in one month. You can perform almost any mathematical operation on numeric data, you can arrange it in ascending or descending order, and the answers must be able to be represented in fraction or decimal form. If your data is grouped into categories, then it is considered categorical.
+
+Hierarchical data is a set of items that are related to each other by relationships containing hierarchy. Its structure uses a one-to-many relationship for data elements, consisting of a tree structure that links a number of separate elements to one "parent" primary record. As an example, consider a company consisting of individual employees that each report to a given department. The department is then considered the parent record and the individual employees are then secondary records, each one linking back to its respective department, or parent record.
+
+Datetime data can combine both a date and a time. It stores chronological information such as month, day, year, hours, minutes, and seconds. This consists of numerical data stored in a specific format; for example, 'YYYY-MM-DD HH:MM:SS' to represent the year, month, date, hour, minutes, and seconds, in that order. 
+
+Topography data includes many types of geographical information that can be found on a map at a specific elevation on Earth’s surface. This type of data can be divided into two categories: vector and raster information. Vector data consists of any point, line, or polygon data found on a traditional topographic map. This can include, for example, municipal boundaries, contour lines, rivers, lakes, roads, railroads, towns, land cover boundaries, GPS points, or GPS tracks. 
