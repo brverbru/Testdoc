@@ -31,13 +31,14 @@ Under both the datasets and dashboards tab, there are different options for disp
 ##Notifications
 
 At any point in the app, you can receive notifications by way of the notifications widget, accessible by the icon in the top right of the page, beside your profile. These notification may include, for example, the status of a dataset upload, or datasets and dashboards that have been shared with you.
->![Notification icon](http://i.imgur.com/1Gh4oH0.png?1)
+>![Notification icon](http://i.imgur.com/bKLLX8I.png)
 
  
  
 ##Profile & profile details
 
 On the profile page, you can adjust your personal profile details, add social media accounts, manage your organisation or business, and access your billing plans.
+>![Notification icon](http://i.imgur.com/zupEdIK.png)
  
 Connecting social media accounts in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.
  
