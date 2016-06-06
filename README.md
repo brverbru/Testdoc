@@ -20,7 +20,6 @@ Login is pretty straightforward too, just fill in your credentials or sign in wi
 >![Login model](http://i.imgur.com/htV7kbN.png?1)
 
 ##Navigation
-
 >![Overview screenshot](http://i.imgur.com/Uapudnt.png?1)
  
 You’ll first arrive at the overview page, which gives a summary of your latest dashboards as well as the coolest datasets available on the the platform. From here, you can navigate to tabs for your datasets and dashboards if you want to start creating visualizations, or you can access your profile using the top right icon to update personal information.
