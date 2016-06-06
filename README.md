@@ -46,4 +46,31 @@ Your organisation page provides an overview of contacts in your organisation ///
  
 The Plans & Billing page allows you to manage your licenses and payment options.
 
+#Datasets Tab
+ 
+##Overview
+ 
+The dataset tabs displays an overview of your uploaded or connected datasets and allows you to add new datasets. You can search for datasets here as well.
+>![Add dataset button](http://i.imgur.com/j1ya4qX.png)
+
+ 
+ 
+##Connecting new datasets
+ 
+By clicking the bright blue “new dataset” button, you will open a modal window. In this modal you can select the source of your new dataset, which can be either a local file, a web service or a database connection. 
+>![Add dataset button](http://i.imgur.com/4VHtAeg.png)
+
+ 
+###    Local files
+ 
+You can browse to select local files to upload them unto the platform, or simply drag and drop files into the upload window provided. Supported file types currently include: CSV, TSV, JSON, topoJson, geoJson, xls, xlsx ,xlsb, csb.
+⋅⋅* CSV 
+⋅⋅* TSV
+⋅⋅* JSON
+⋅⋅* topoJSON
+⋅⋅* geoJSON
+⋅⋅* xls
+⋅⋅* xlsx
+⋅⋅* xlsb
+⋅⋅* csb
 
