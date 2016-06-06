@@ -1,5 +1,3 @@
-# Cumul.io documentation
-
 
 Welcome to Cumul.io! You’ve definitely made the right choice in signing up! You’re now on your way to having control over your data and being able to gain meaningful insights in a safe, simple and manageable way. That’s a nice feeling, right?
 
@@ -30,5 +28,21 @@ Under both the datasets and dashboards tab, there are different options for disp
 
 >![Feedback buttons](http://i.imgur.com/1Gh4oH0.png?1)
 
+##Notifications
+
+At any point in the app, you can receive notifications by way of the notifications widget, accessible by the icon in the top right of the page, beside your profile. These notification may include, for example, the status of a dataset upload, or datasets and dashboards that have been shared with you.
+>![Notification icon](http://i.imgur.com/1Gh4oH0.png?1)
+
+ 
+ 
+##Profile & profile details
+
+On the profile page, you can adjust your personal profile details, add social media accounts, manage your organisation or business, and access your billing plans.
+ 
+Connecting social media accounts in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.
+ 
+Your organisation page provides an overview of contacts in your organisation /////ASK KAREL OR HAROEN
+ 
+The Plans & Billing page allows you to manage your licenses and payment options.
 
 
