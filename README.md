@@ -5,8 +5,10 @@ Welcome to Cumul.io! You’ve definitely made the right choice in signing up! Yo
 
 The following guidelines will enable you to immediately get started with exploring data yourself, without ever requiring any technical expertise!
 
->Can’t find what you were looking for in our guidelines? Drop us an email at support@cumul.io and we’ll help you out asap.
+Can’t find what you were looking for in our guidelines? Drop us an email at support@cumul.io and we’ll help you out asap.
 
+!These are the user docs! Looking for the API documentation?
+>Go to API docs >
  
 # Getting started
 ## Registering & sign in
