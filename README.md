@@ -69,6 +69,7 @@ By clicking the bright blue “new dataset” button, you will open a modal wind
  
 You can browse to select local files to upload them unto the platform, or simply drag and drop files into the upload window provided. Supported file types currently include: 
 
++ **Numeric data** is information of a measurable form. It is always collected in number form, although there are other types of data that can appear in number form. An example of numerical data would be the number of software licenses sold by a company in one month. You can perform almost any mathematical operation on numeric data, you can arrange it in ascending or descending order, and the answers must be able to be represented in fraction or decimal form. 
 + CSV 
 + TSV
 + JSON
