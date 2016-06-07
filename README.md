@@ -8,7 +8,7 @@ The following guidelines will enable you to get started with exploring data your
 >Can’t find what you were looking for in our guidelines? Drop us an email at support@cumul.io and we’ll help you out asap. Or, at any point, you can live chat with our support team or leave feedback/report bugs using the square tabs that appear on the left-hand side of the webpage. 
 
 <div style="text-align:right" markdown="1">
->![Feedback buttons](http://i.imgur.com/1Gh4oH0.png?1 "Feedback buttons")
+>![Feedback buttons](http://i.imgur.com/1Gh4oH0.png?1)
 </div>
 
 
