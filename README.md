@@ -78,6 +78,7 @@ You can browse to select local files to upload them unto the platform, or simply
 + xlsx
 + xlsb
 + csb
+
 >![Add local file](http://i.imgur.com/g3r7elA.png?1)
 
 ###Web services
