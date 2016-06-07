@@ -196,71 +196,95 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 
 ###General
 
-+ A text object creates a formattable template text box. It can be used for adding sources or adding additional information about the items or data displayed. 
-+ An image object adds a picture or icon to the dashboard. For security reasons, uploading pictures is not possible, but you can host your image on imgur, flickr or any other service and fill in the url in the image objects settings. 
-+ Video object
-+ Number object
-+ Add tables to view your data in table format. A pivot table allows you to make a table based on datasets linked to one another. If the datasets are not already linked, you will get a prompt to do so when you add a column from a different dataset to the pivot table.
-+ A spacer [ICON] allows you to create self-defined gaps between the items in your dashboard, allowing for a more attractive layout organization.
++ A **text object** creates a formattable template text box. It can be used for adding sources or adding additional information about the items or data displayed. 
+
++ An **image object** adds a picture or icon to the dashboard. For security reasons, uploading pictures is not possible, but you can host your image on imgur, flickr or any other service and fill in the url in the image objects settings. 
+
++ A **Video object** adds a video to the canvas. This video can be hosted on any video service. 
+
++ A **Number** object shows a key figure or number. This object has different themes of styling available. 
+
++ A **Table object** adds a table to the canvas. A **pivot table** allows you to make a table based on datasets linked to one another. If the datasets are not already linked, you will get a prompt to do so when you add a column from a different dataset to the pivot table.
+
++ A **spacer** allows you to create self-defined gaps between the items in your dashboard, allowing for a more attractive layout organization.
 
 ###Filters
 
-Filter items let you view your data in various ways. Each one is briefly mentioned below. 
++ A **date filter** allows you to specify which time period is displayed for your items. Applying a filter item filters the dates for the entire dashboard. 
 
-+ A date filter allows you to specify which time period is displayed for your items. Applying a filter item filters the dates for the entire dashboard. 
-+ A date slider [ICON] performs the same operation as a date filter, but it creates a module allowing the user or viewer to adjust the time period of the date filter interactively.
-+ A search box allows viewers to search for a specific dimension in the data, and filter results to just this dimension. For example, for items explaining the volume of sales for all products over time, a one could search for a specific product, in order to only display this product in the graphs. 
-+ A select box lets the viewer select a dimension from a drop-down menu. 
-+ A slicer allows users to select which dimensions to display by means of a check-box list of  items. 
++ A **date slider** performs the same operation as a date filter, but it creates a module allowing the user or viewer to adjust the time period of the date filter interactively.
+
++ A **search box** allows viewers to search for a specific dimension in the data, and filter results to just this dimension. For example, for items explaining the volume of sales for all products over time, a one could search for a specific product, in order to only display this product in the graphs. 
+
++ A **select box** lets the viewer select a dimension from a drop-down menu. 
+
++ A **slicer** allows users to select which dimensions to display by means of a check-box list of  items. 
 
 ###Bar & Column Charts
-+ A bar chart is a graph that displays grouped data using rectangular bars. The lengths of the bars are proportional to the values that they represent. 
-+ Group bar charts are a way of representing or comparing information on different sub-groups within the main categories. For example, volume of sales for a product can be divided into the age groups that purchases them. 
-+ The stacked bar chart depicts items stacked side-by-side, differentiated by colored bars or strips. A stacked graph is useful for looking at changes in, for example, expenditures added up over time, or across several products and services. The graph integrates different data sets to create a richer picture of (the sum of) changes.
-+ The column charts (column, grouped column, stacked column) are identical to the bar charts, except that data is plotted vertically instead of horizontally. For the stacked column chart, data items are then stacked on top of one another. 
+
++ A **bar chart** is a graph that displays grouped data using rectangular bars. The lengths of the bars are proportional to the values that they represent. 
+
++ Group **bar charts** are a way of representing or comparing information on different sub-groups within the main categories. For example, volume of sales for a product can be divided into the age groups that purchases them. 
+
++ The **stacked bar chart** depicts items stacked side-by-side, differentiated by colored bars or strips. A stacked graph is useful for looking at changes in, for example, expenditures added up over time, or across several products and services. The graph integrates different data sets to create a richer picture of (the sum of) changes.
+
++ The **column charts (column, grouped column, stacked column)** are identical to the bar charts, except that data is plotted vertically instead of horizontally. For the stacked column chart, data items are then stacked on top of one another. 
 
 ###Line charts
 
-+ A line chart is a graph displaying information as a series of data points that are connected by straight line segments. This classic chart is common for many purposes, but is most often used to represent changes in data over time. For example, a line connected between data points for sales volume per month helps to visually represent the increase or decrease in sales that occur from one month to the next. 
-+ The grouped line chart is used to represent the evolution of multiple dependent variables (y-axis) as a function of one independent variable (x-axis). For example, you could visualize the evolution of various product sales, where each line represents the specific volume of sales for one individual product.
-+ A line color chart can be used to visually point out various trends or categories of the data line displayed. For example, color coding can be used to indicate those months when sales are increasing or decreasing, or, as another example, months when sales are at a peak period. 
++ A **line chart** is a graph displaying information as a series of data points that are connected by straight line segments. This classic chart is common for many purposes, but is most often used to represent changes in data over time. For example, a line connected between data points for sales volume per month helps to visually represent the increase or decrease in sales that occur from one month to the next. 
+
++ The **grouped line chart** is used to represent the evolution of multiple dependent variables (y-axis) as a function of one independent variable (x-axis). For example, you could visualize the evolution of various product sales, where each line represents the specific volume of sales for one individual product.
+
++ A **line color chart** can be used to visually point out various trends or categories of the data line displayed. For example, color coding can be used to indicate those months when sales are increasing or decreasing, or, as another example, months when sales are at a peak period. 
 
 ###Scatter & Bubble Plots
 
-+ A scatter plot is one of the simplest ways to represent data by plotting two variables against each other. This type of chart is best used to represent continuous rather than categorical variables. The result is a series or “scatter” of individual points. Each data point then represents one XY value. 
-+ A group scatter can then display further trends on a scatter plot by grouping the data points and color-coding them based on a third dimension. 
-+ A bubble chart is a method of displaying three dimensions (x, y, z) or series of data in a chart format. Bubble charts can be considered a variation of a scatter plot, where the data points are replaced with bubbles. The location of each bubble represents its XY value, while the size of the bubble expresses the third dimension, Z. For example, a good use for a bubble chart is to display the number of customers buying a product (X), the total sales from that product (Y), and the percentage of total sales that product represents (Z). 
-+ A colored bubble chart differentiates the chart as in the group scatter, further dividing the data into sub-groups.
++ A **scatter plot** is one of the simplest ways to represent data by plotting two variables against each other. This type of chart is best used to represent continuous rather than categorical variables. The result is a series or “scatter” of individual points. Each data point then represents one XY value. 
+
++ A **group scatter** can then display further trends on a scatter plot by grouping the data points and color-coding them based on a third dimension. 
+
++ A **bubble chart** is a method of displaying three dimensions (x, y, z) or series of data in a chart format. Bubble charts can be considered a variation of a scatter plot, where the data points are replaced with bubbles. The location of each bubble represents its XY value, while the size of the bubble expresses the third dimension, Z. For example, a good use for a bubble chart is to display the number of customers buying a product (X), the total sales from that product (Y), and the percentage of total sales that product represents (Z). 
+
++ A **colored bubble chart** differentiates the chart as in the group scatter, further dividing the data into sub-groups.
 
 ###Area Charts
+
 + An area chart is simply a line chart with the area below the line filled in. This is best used to display the cumulative volume of a variable over time. 
-+ A stacked area chart is then useful to display the contribution of different values to an overall total over time or as a function of another variable. As an example, Cumul.io can analyze its number of customers over time, differentiated by the sector they work in, such as marketing, private commerce, geographic analysis, socio-economic analysis, etc. 
-+ A 100 stacked area chart is used to display the relative contributions of various components and how these vary as a function of another variable. The area of each component corresponding to any given point on the X axis then represents its percentage of the total at that point. As an example, say that during the year of 2015, the relative sectors of Cumul.io customers on average is represented by: marketing (35%), private commerce (30%), geographic analysis (20%), socio-economic analysis (10%), and other (5%). In 2016, these proportions could change to: 30%, 25%, 15%, 5%, and 25%, respectively, as the Cumul.io platform expands into other sectors. A stacked area chart would show this evolution over time. 
-+ A streamgraph is a type of stacked area chart which is displaced around a central axis, resulting in a flowing, organic shape. This can ideally be used to represent the evolution of an overall total over time, as well as the relative contributions of various sub-parts. As an example, consider a company selling multiple smartphone applications to users. The company could use a streamgraph to show the evolution of total application use of users over time, and could differentiate the stream based on the relative use of each individual application.
+
++ A **stacked area chart** is then useful to display the contribution of different values to an overall total over time or as a function of another variable. As an example, Cumul.io can analyze its number of customers over time, differentiated by the sector they work in, such as marketing, private commerce, geographic analysis, socio-economic analysis, etc. 
+
++ A **100 stacked area chart** is used to display the relative contributions of various components and how these vary as a function of another variable. The area of each component corresponding to any given point on the X axis then represents its percentage of the total at that point. As an example, say that during the year of 2015, the relative sectors of Cumul.io customers on average is represented by: marketing (35%), private commerce (30%), geographic analysis (20%), socio-economic analysis (10%), and other (5%). In 2016, these proportions could change to: 30%, 25%, 15%, 5%, and 25%, respectively, as the Cumul.io platform expands into other sectors. A stacked area chart would show this evolution over time. 
+
++ A **streamgraph** is a type of stacked area chart which is displaced around a central axis, resulting in a flowing, organic shape. This can ideally be used to represent the evolution of an overall total over time, as well as the relative contributions of various sub-parts. As an example, consider a company selling multiple smartphone applications to users. The company could use a streamgraph to show the evolution of total application use of users over time, and could differentiate the stream based on the relative use of each individual application.
 
 ###Pie & Donut
-+ Pie chart is a graph where a circle is divided into sectors that each represent a proportion of the whole. The arc length of each slice is proportional to the value it represent. This type of chart is often used in business and media. 
->We cannot recommend pie and donut charts as best practice since they have been criticized by experts. It can be difficult to compare different sections of a pie chart and to make comparisons across different charts. (see: https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf)
-+ A donut chart is similar to a pie chart, but can be used to represent more than one data series. Different rings of the donut then represent different datasets. 
+
++ A **Pie chart** is a graph where a circle is divided into sectors that each represent a proportion of the whole. The arc length of each slice is proportional to the value it represent. This type of chart is often used in business and media. 
+>We cannot recommend pie and donut charts as best practice since they have been criticized by experts. It can be difficult to compare different sections of a pie chart and to make comparisons across different charts. For more info read this [article](https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf)
+
++ A **donut chart** is similar to a pie chart, but can be used to represent more than one data series. Different rings of the donut then represent different datasets. 
 
 ###Small Multiples
 
-+ Multiples charts can be used to combine several charts into one figure. This is often done when multiple trends are interconnected by sharing an x- or y-axis. ...
-+ Multiples-bar: Coming soon to Cumul.io!
-+ Multiples-column: Coming soon to Cumul.io!
-+ Multiples-line: Coming soon to Cumul.io!
-+ Multiples-scatter: Coming soon to Cumul.io!
++ **Multiples charts** can be used to combine several charts into one figure. This is often done when multiple trends are interconnected by sharing an x- or y-axis. ... These will soon be added to the platform! 
+
 
 ###Maps
-+ A cloropleth map uses variations in shading or coloring over a predefined area in order to explain the average values of a variable in that area. For example, the average unemployment in each province in Belgium can be displayed, using a shading percentage that is proportional to the unemployment level. 
-+ Symbol maps will scale the size of a simple symbol (for example, a circle or square) in a proportional way to the value found at that location. The symbol can be scaled to the exact value, or can be graduated based on the different categories the value may fall into. Proportional symbol maps may be preferred over dot density maps because it is easier for viewers to quickly gain insights from the map since estimating the size of a symbol is less tedious than counting many little dots. An advantage of proportional symbol maps over choropleth maps is that the size of the areal unit plays less of a role. For example, consider population density. If a country with a small geographic area, such as Belgium, has a large associated value, it will have a large symbol over it. On a choropleth map, however, smaller places are easily overlooked on a complex border map, such as, in this case, Europe. No matter what color is assigned to countries, the larger areas on the map, such as nearby France and Germany, still dominate when a user is visually inspecting the map. Therefore smaller countries with higher population densities can be overlooked. 
-Source: http://indiemapper.com/app/learnmore.php?l=proportional_symbols 
 
-+ A marker map simply uses a predefined symbol to display locations. This can be helpful, for example, if a company wants to show users where they are present in the world by showing the locations of offices in New York City, Brussels, and Hong Kong. 
-+ Hexbin maps are an alternative way to visualizing density maps from large datasets. It aggregates the data points that fall within either a rectangle or hexagonal shape, creating a new value for that area matching the number of data points contained. 
-+ A heatmap is a graphical or raster representation, where the values of different pixels are represented by different colors. It is different from a cloropleth map in that it does not conform to specific geographic boundaries. An example of a heatmap is a weather radar displaying expected rainfall. Different color schemes can be used for heatmaps, but their representation is often hierarchical. Darker colors can, for example, represent higher expected rainfall. 
-+ Route map: Coming soon to Cumul.io!
-+ Dot map: Coming soon to Cumul.io!
++ A **cloropleth map** uses variations in shading or coloring over a predefined area in order to explain the average values of a variable in that area. For example, the average unemployment in each province in Belgium can be displayed, using a shading percentage that is proportional to the unemployment level. 
+
++ **Symbol maps** will scale the size of a simple symbol (for example, a circle or square) in a proportional way to the value found at that location. The symbol can be scaled to the exact value, or can be graduated based on the different categories the value may fall into. Proportional symbol maps may be preferred over dot density maps because it is easier for viewers to quickly gain insights from the map since estimating the size of a symbol is less tedious than counting many little dots. An advantage of proportional symbol maps over choropleth maps is that the size of the areal unit plays less of a role. For example, consider population density. If a country with a small geographic area, such as Belgium, has a large associated value, it will have a large symbol over it. On a choropleth map, however, smaller places are easily overlooked on a complex border map, such as, in this case, Europe. No matter what color is assigned to countries, the larger areas on the map, such as nearby France and Germany, still dominate when a user is visually inspecting the map. Therefore smaller countries with higher population densities can be overlooked. 
+
++ A **marker map** simply uses a predefined symbol to display locations. This can be helpful, for example, if a company wants to show users where they are present in the world by showing the locations of offices in New York City, Brussels, and Hong Kong. 
+
++ **Hexbin maps** are an alternative way to visualizing density maps from large datasets. It aggregates the data points that fall within either a rectangle or hexagonal shape, creating a new value for that area matching the number of data points contained. 
+
++ A **heatmap** is a graphical or raster representation, where the values of different pixels are represented by different colors. It is different from a cloropleth map in that it does not conform to specific geographic boundaries. An example of a heatmap is a weather radar displaying expected rainfall. Different color schemes can be used for heatmaps, but their representation is often hierarchical. Darker colors can, for example, represent higher expected rainfall. 
+
++ **Route map**: Coming soon to Cumul.io!
+
++ **Dot map**: Coming soon to Cumul.io!
 
 ###Special Charts
 + A bubble chart is a simple version of the bubble scatter mentioned above, and can be used to represent quantitative information by means of the shapes of various circles, or ‘bubbles’, displayed next to one another on the chart, with sizes proportional to the quantity they represent. It can be used, for example, to explain the volume of different types of products sold by company. 
