@@ -169,6 +169,7 @@ There are three different kind of joins in Cumul.io
 ##Sharing datasets
  
 Sharing datasets can be done with users or groups that exist within your organization or business. There are several levels of access that users may have. 
+
 + “Viewers” are simply able to view the dataset but cannot use it in a dashboard. 
 + “Can use” means the user is able to use the dataset in a dashboard. 
 + “Edit” means the user can view, use and edit the dataset.
