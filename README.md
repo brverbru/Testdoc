@@ -32,8 +32,9 @@ You’ll first arrive at the overview page, which gives a summary of your latest
 
 Under both the datasets and dashboards tab, there are different options for displaying personal data, data shared with you by others, and data available to the public. You will also find a search function to filter your datasets or dashboards using keywords. 
 
- 
->At any point in the app, you can receive **notifications** by way of the notifications widget, accessible by the icon in the top right of the page, beside your profile. These notification may include, for example, the status of a dataset upload, or datasets and dashboards that have been shared with you.
+##Notifications 
+At any point in the app, you can receive **notifications** by way of the notifications widget, accessible by the icon in the top right of the page, beside your profile. 
+>Notification may include, for example, the status of a dataset upload, or datasets and dashboards that have been shared with you.
 
 >![Notification icon](http://i.imgur.com/bKLLX8I.png)
 
@@ -42,7 +43,7 @@ Under both the datasets and dashboards tab, there are different options for disp
 ##Profile & profile details
 
 On the profile page, you can adjust your personal profile details, add social media accounts, manage your organisation or business, and access your billing plans.
->![Notification icon](http://i.imgur.com/zupEdIK.png)
+>![profile page](http://i.imgur.com/GxF8CoZ.png?1)
  
 Connecting social media accounts in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.
  
@@ -55,10 +56,9 @@ The Plans & Billing page allows you to manage your licenses and payment options.
 ##Overview
  
 The dataset tabs displays an overview of your uploaded or connected datasets and allows you to add new datasets. You can search for datasets here as well.
->![Add dataset button](http://i.imgur.com/j1ya4qX.png)
+>![Dataset tab](http://i.imgur.com/EaMLvz4.png?1)
 
- 
- 
+
 ##Connecting new datasets
  
 By clicking the bright blue “new dataset” button, you will open a modal window. In this modal you can select the source of your new dataset, which can be either a local file, a web service or a database connection. 
