@@ -68,6 +68,7 @@ By clicking the bright blue “new dataset” button, you will open a modal wind
 ###    Local files
  
 You can browse to select local files to upload them unto the platform, or simply drag and drop files into the upload window provided. Supported file types currently include: 
+
 + CSV 
 + TSV
 + JSON
@@ -77,7 +78,6 @@ You can browse to select local files to upload them unto the platform, or simply
 + xlsx
 + xlsb
 + csb
->![Add local file](http://i.imgur.com/g3r7elA.png?1)
 
 
 
