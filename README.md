@@ -5,7 +5,7 @@ Welcome to Cumul.io! You’ve definitely made the right choice in signing up! Yo
 
 The following guidelines will enable you to get started with exploring data yourself, without ever requiring any technical expertise!
 
-Can’t find what you were looking for in our guidelines? Drop us an email at support@cumul.io and we’ll help you out asap. Or, at any point, you can live chat with our support team or leave feedback/report bugs using the square tabs that appear on the left-hand side of the webpage. 
+>Can’t find what you were looking for in our guidelines? Drop us an email at support@cumul.io and we’ll help you out asap. Or, at any point, you can live chat with our support team or leave feedback/report bugs using the square tabs that appear on the left-hand side of the webpage. 
 >![Feedback buttons](http://i.imgur.com/1Gh4oH0.png?1)
 
 # Getting started
