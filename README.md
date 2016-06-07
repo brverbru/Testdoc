@@ -31,6 +31,7 @@ You’ll first arrive at the overview page, which gives a summary of your latest
 >![Overview screenshot](http://i.imgur.com/m1rpojh.png?1)
 
 Under both the datasets and dashboards tab, there are different options for displaying personal data, data shared with you by others, and data available to the public. You will also find a search function to filter your datasets or dashboards using keywords. 
+
  
 >At any point in the app, you can receive **notifications** by way of the notifications widget, accessible by the icon in the top right of the page, beside your profile. These notification may include, for example, the status of a dataset upload, or datasets and dashboards that have been shared with you.
 
