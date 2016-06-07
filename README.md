@@ -261,6 +261,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 ###Pie & Donut
 
 + A **Pie chart** is a graph where a circle is divided into sectors that each represent a proportion of the whole. The arc length of each slice is proportional to the value it represent. This type of chart is often used in business and media. 
+
 >We cannot recommend pie and donut charts as best practice since they have been criticized by experts. It can be difficult to compare different sections of a pie chart and to make comparisons across different charts. For more info read this [article](https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf)
 
 + A **donut chart** is similar to a pie chart, but can be used to represent more than one data series. Different rings of the donut then represent different datasets. 
