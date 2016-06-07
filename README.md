@@ -118,7 +118,7 @@ Selecting a dataset will direct you to its contents and structure. Each column d
 Furthermore, you can navigate to the dataset detail page, manage datasets links or share the dataset by clicking the respective links in the top right of the screen.
 
  
-###Data types
+##Data types
 
 The cumul.io platform supports several types of data: 
 
@@ -130,7 +130,7 @@ The cumul.io platform supports several types of data:
 
 + **Topography data** includes many types of geographical information that can be found on a map at a specific elevation on Earth’s surface. Cumul.io supports vector data, which can consist points, lines, or polygons. This can include, for example, municipal boundaries, contour lines, rivers, lakes, roads, railroads, towns, land cover boundaries, GPS points, or GPS tracks. 
  
-###Derived columns
+##Derived columns
 
 The Derived Column option basically does what it says: it allows new data fields to be derived from your existing data. This is done by way of a “transformation” that creates new column values by applying expressions to the transformation input columns. This process is similar to most spreadsheet operations. 
 
@@ -146,12 +146,12 @@ Say you would like to convert date strings into a specific format. For example, 
 
 
 
-###Dataset info page
+##Dataset info page
  
 Under the Datasets tab you find your list of datasets, and using the icons on the right-hand side of each dataset listed, you can perform simple actions, or you may navigate to the dataset info page. This is where you can find general information on your specific dataset and perform a variety actions. You may see the details of the information stored in the dataset, share it with your team, delete the dataset or upload a newer version. This page also allows you to add tags as well as a description, which is helpful for finding the dataset using the search function. This is especially useful if you decide to publicly publish your dataset, because it enables other users to easily arrive ?? at your data. 
 
  
-###Joins & Links
+##Joins & Links
 
 In order to blend datasets together, you must first specify how different datasets are linked. Therefore, find the links modal option within your dataset view. As with most operations in Cumul.io, you can create a link by dragging the foreign key (of your lookup table) to the primary key (of your master table). Yes, the overall principle is as simple as that! However, let’s talk about some of the details of how the platform performs the links.
 
@@ -168,7 +168,7 @@ There are three different kind of joins in Cumul.io
  + Value A is closest to, but occurring after a datetime Value B
  + Value A is closest to, but occurring before a datetime Value B 
  
-###Sharing datasets
+##Sharing datasets
  
 Sharing datasets can be done with users or groups that exist within your organization or business. There are several levels of access that users may have. “Viewers” are simply able to view the dataset but cannot use it in a dashboard. “Can use” means the user is able to use the dataset in a dashboard. “Edit” means the user can view, use and edit the dataset. An “owner” can do all of the above and can also adjust the privileges and roles of each dataset user, specifying whether they can view, use, edit or become the owner of a dataset. 
 
