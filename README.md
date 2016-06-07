@@ -168,7 +168,7 @@ There are three different kind of joins in Cumul.io
  + Value A is closest to, but occurring after a datetime Value B
  + Value A is closest to, but occurring before a datetime Value B 
  
-3.3.6.     Sharing datasets
+###Sharing datasets
  
 Sharing datasets can be done with users or groups that exist within your organization or business. There are several levels of access that users may have. “Viewers” are simply able to view the dataset but cannot use it in a dashboard. “Can use” means the user is able to use the dataset in a dashboard. “Edit” means the user can view, use and edit the dataset. An “owner” can do all of the above and can also adjust the privileges and roles of each dataset user, specifying whether they can view, use, edit or become the owner of a dataset. 
 
