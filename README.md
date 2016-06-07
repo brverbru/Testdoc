@@ -120,7 +120,7 @@ Furthermore, you can navigate to the dataset detail page, manage datasets links 
  
 ###Data types
 
-The cumul.io platform supports several types of data: numeric, hierarchical, datetime, and topographical. A brief explanation of each type is provided below, along with links to more detailed documentation on the topic. 
+The cumul.io platform supports several types of data: 
 
 + **Numeric data** is information of a measurable form. It is always collected in number form, although there are other types of data that can appear in number form. An example of numerical data would be the number of software licenses sold by a company in one month. You can perform almost any mathematical operation on numeric data, you can arrange it in ascending or descending order, and the answers must be able to be represented in fraction or decimal form. 
 
@@ -129,3 +129,49 @@ The cumul.io platform supports several types of data: numeric, hierarchical, dat
 + **Datetime data** can combine both a date and a time. It stores chronological information such as month, day, year, hours, minutes, and seconds. This consists of numerical data stored in a specific format; for example, 'YYYY-MM-DD HH:MM:SS' to represent the year, month, date, hour, minutes, and seconds, in that order. 
 
 + **Topography data** includes many types of geographical information that can be found on a map at a specific elevation on Earth’s surface. Cumul.io supports vector data, which can consist points, lines, or polygons. This can include, for example, municipal boundaries, contour lines, rivers, lakes, roads, railroads, towns, land cover boundaries, GPS points, or GPS tracks. 
+ 
+###Derived columns
+
+The Derived Column option basically does what it says: it allows new data fields to be derived from your existing data. This is done by way of a “transformation” that creates new column values by applying expressions to the transformation input columns. This process is similar to most spreadsheet operations. 
+
+To get you started, consider some of the following features of our platform. An expression can contain any combination of variables, functions, operators, and columns from the transformation input. The result may either be added as a new column or may be inserted into an existing column as a replacement value. The Derived Column transformation can define multiple derived columns at once, and any variable or input columns can appear in multiple expressions.
+
+This transformation can be used to perform many tasks, some of which are explained in the following examples. 
+
+It is possible to concatenate data from different columns into a derived column. For example, say you have a column for “first name” and a column for “last name” and you would like to combine them into one field representing a full name. The values from FirstName and LastName columns can be combined into the single derived column of FullName, by using the expression FirstName + " " + LastName.
+
+Mathematical functions can be applied to numeric data and the result can be stored in a derived column. For example, you could change the length and precision of a numeric column, SalesTax, to a number with two decimal places by using the expression ROUND (SalesTax, 2).
+
+Say you would like to convert date strings into a specific format. For example, ‘MM-DD-YY’ should become ‘DD-MM-YY’. This can be done using the specific expression:           Not sure if this is possible in the platform
+
+
+
+###Dataset info page
+ 
+Under the Datasets tab you find your list of datasets, and using the icons on the right-hand side of each dataset listed, you can perform simple actions, or you may navigate to the dataset info page. This is where you can find general information on your specific dataset and perform a variety actions. You may see the details of the information stored in the dataset, share it with your team, delete the dataset or upload a newer version. This page also allows you to add tags as well as a description, which is helpful for finding the dataset using the search function. This is especially useful if you decide to publicly publish your dataset, because it enables other users to easily arrive ?? at your data. 
+
+ 
+###Joins & Links
+
+In order to blend datasets together, you must first specify how different datasets are linked. Therefore, find the links modal option within your dataset view. As with most operations in Cumul.io, you can create a link by dragging the foreign key (of your lookup table) to the primary key (of your master table). Yes, the overall principle is as simple as that! However, let’s talk about some of the details of how the platform performs the links.
+
+Joins and links are done using the LOOKUP principle, which is as straightforward as it sounds: Cumul.io “looks up” a specified value in another dataset. A join therefore occurs when the specified value of a field in dataset A is found in another field from Dataset B. 
+There are three different kind of joins in Cumul.io 
+
++ Exact match: This is possible when a value in dataset A is exactly the same as in dataset B. For example, this could be a customer ID or reference code that is the same in each of your datasets.
+
++ Fuzzy match: This option is used when a value in dataset A is very similar to the corresponding value in dataset B. For example, if customer names are filled in manually and some typing errors were made, a match can still be found.
+
++ Time match: This joins datetime values of dataset A to dataset B, with the option of defining the match in different ways. After creating your link in the modal, the following options can be chosen by selecting the icon on your link. 
+
+ + Value A is closest to a datetime Value B
+ + Value A is closest to, but occurring after a datetime Value B
+ + Value A is closest to, but occurring before a datetime Value B 
+ 
+3.3.6.     Sharing datasets
+ 
+Sharing datasets can be done with users or groups that exist within your organization or business. There are several levels of access that users may have. “Viewers” are simply able to view the dataset but cannot use it in a dashboard. “Can use” means the user is able to use the dataset in a dashboard. “Edit” means the user can view, use and edit the dataset. An “owner” can do all of the above and can also adjust the privileges and roles of each dataset user, specifying whether they can view, use, edit or become the owner of a dataset. 
+
+
+
+
