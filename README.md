@@ -1,7 +1,7 @@
 # Cumul.io User Guide
 
 Welcome to Cumul.io! You’ve definitely made the right choice in signing up! You’re now on your way to having control over your data and being able to gain meaningful insights in a safe, simple and manageable way. That’s a nice feeling, right?
->These are the user docs! Switch to the [API docs](https://www.google.com)?
+>####These are the user docs! Switch to the [API docs](https://www.google.com)?
 
 The following guidelines will enable you to get started with exploring data yourself, without ever requiring any technical expertise!
 
