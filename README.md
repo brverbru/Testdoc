@@ -77,6 +77,7 @@ You can browse to select local files to upload them unto the platform, or simply
 + xlsx
 + xlsb
 + csb
+>![Add local file](http://i.imgur.com/owSyZFb.png?1)
 
 ###Web services
  
@@ -88,7 +89,8 @@ Explain what happens once you link to the account… Does it connect within the 
 Unless the process works differently for each type of connection, perhaps it is not really necessary to provide a separate description of each
  
  
-####Facebook
+####Quandl
+####Google drive
 ####Google Analytics
  
 ###From a data source
@@ -109,6 +111,7 @@ Can you give some details on the format/type of API used, then I can give a shor
 ###Overview of the page
  
 Selecting a dataset will direct you to its contents and structure. Each column displayed is a field, and each row represents one record. The charts at the top of each column show the distribution of the data contained in the field. The search function enables you to quickly find specific values. You can change the data type by selecting the data icon displayed to the left of each field name. You can edit the hierarchy, calculate a derived column or delete the row by selecting the options icon at the right of each data distribution display. 
+>![Dataset page](http://i.imgur.com/QHDgkNF.png?1)
 
 Furthermore, you can navigate to the dataset detail page, manage datasets links or share the dataset by clicking the respective links in the top right of the screen.
 
