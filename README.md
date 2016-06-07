@@ -77,6 +77,7 @@ You can browse to select local files to upload them unto the platform, or simply
 + xlsx
 + xlsb
 + csb
+
 >![Add local file](http://i.imgur.com/g3r7elA.png?1)
 
 ###Web services
@@ -120,10 +121,10 @@ Furthermore, you can navigate to the dataset detail page, manage datasets links 
 
 The cumul.io platform supports several types of data: numeric, hierarchical, datetime, and topographical. A brief explanation of each type is provided below, along with links to more detailed documentation on the topic. 
 
- +Numeric data is information of a measurable form. It is always collected in number form, although there are other types of data that can appear in number form. An example of numerical data would be the number of software licenses sold by a company in one month. You can perform almost any mathematical operation on numeric data, you can arrange it in ascending or descending order, and the answers must be able to be represented in fraction or decimal form. 
++ Numeric data is information of a measurable form. It is always collected in number form, although there are other types of data that can appear in number form. An example of numerical data would be the number of software licenses sold by a company in one month. You can perform almost any mathematical operation on numeric data, you can arrange it in ascending or descending order, and the answers must be able to be represented in fraction or decimal form. 
 
- +Hierarchical data is a set of items that are related to each other by relationships containing hierarchy. Its structure uses a one-to-many relationship for data elements, consisting of a tree structure that links a number of separate elements to one "parent" primary record. As an example, consider a company consisting of individual employees that each report to a given department. The department is then considered the parent record and the individual employees are then secondary records, each one linking back to its respective department, or parent record.
++ Hierarchical data is a set of items that are related to each other by relationships containing hierarchy. Its structure uses a one-to-many relationship for data elements, consisting of a tree structure that links a number of separate elements to one "parent" primary record. As an example, consider a company consisting of individual employees that each report to a given department. The department is then considered the parent record and the individual employees are then secondary records, each one linking back to its respective department, or parent record.
 
- +Datetime data can combine both a date and a time. It stores chronological information such as month, day, year, hours, minutes, and seconds. This consists of numerical data stored in a specific format; for example, 'YYYY-MM-DD HH:MM:SS' to represent the year, month, date, hour, minutes, and seconds, in that order. 
++ Datetime data can combine both a date and a time. It stores chronological information such as month, day, year, hours, minutes, and seconds. This consists of numerical data stored in a specific format; for example, 'YYYY-MM-DD HH:MM:SS' to represent the year, month, date, hour, minutes, and seconds, in that order. 
 
- +Topography data includes many types of geographical information that can be found on a map at a specific elevation on Earth’s surface. Cumul.io supports vector data, which can consist points, lines, or polygons. This can include, for example, municipal boundaries, contour lines, rivers, lakes, roads, railroads, towns, land cover boundaries, GPS points, or GPS tracks. 
++ Topography data includes many types of geographical information that can be found on a map at a specific elevation on Earth’s surface. Cumul.io supports vector data, which can consist points, lines, or polygons. This can include, for example, municipal boundaries, contour lines, rivers, lakes, roads, railroads, towns, land cover boundaries, GPS points, or GPS tracks. 
