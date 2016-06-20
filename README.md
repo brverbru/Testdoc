@@ -1,6 +1,6 @@
 # Cumul.io User Guide
 
->These are the user docs! Switch to the [API docs](https://www.google.com)?
+>These are the user docs! Switch to the [API docs](https://www.google.com){:target="_blank"}?
 
 >Can’t find what you were looking for in our guidelines? Drop us an email at **support@cumul.io** and we’ll help you out asap. 
 
