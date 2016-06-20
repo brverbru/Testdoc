@@ -13,6 +13,7 @@ Welcome to Cumul.io! You’ve definitely made the right choice in signing up! Yo
 
 
 Looking for a quick and easy way to get started (or don't want to read the complete guide) ? Check out of our getting started tutorials! 
+>Getting started with the [dashboard editor](https://www.youtube.com/watch?v=33Rq0s9QqJU)?
 
 
 ## Registering & sign in
@@ -48,6 +49,7 @@ Connecting social media accounts in the Social Accounts tab allows you to share 
 Your organisation page provides an overview of contacts in your organisation /////ASK KAREL OR HAROEN
  
 The Plans & Billing page allows you to manage your licenses and payment options.
+>Check available license plans [here](https://cumul.io/pricing)
 
 #Datasets Tab
  
@@ -103,9 +105,9 @@ More details about how this connection process works?
 ####DB2
  
 ###Using the API
-·       Redirect to API documentation
+The Cumul.io API makes it possible to interact with Cumul.io in a programmatic way, for example to create datasets and dashboards, push real-time data, develop your own custom integrations to data sources or retrieve sliced & diced, aggregated data from your datasets.
+>Read the complete API documentation [here](http://docs.cumul.io) 
 
-Can you give some details on the format/type of API used, then I can give a short summary and provide the right documentation website?
 
 ##Dataset page
 ###Overview of the page
