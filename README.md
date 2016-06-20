@@ -41,12 +41,12 @@ At any point in the app, you can receive **notifications** by way of the notific
  
 ##Profile & profile details
 
-On the profile page, you can adjust your personal profile details, add social media accounts, manage your organisation or business, and access your billing plans.
+On the profile page, you can adjust your personal profile details, add social media accounts, manage your organization or business, and access your billing plans.
 >![profile page](http://i.imgur.com/GxF8CoZ.png?1)
  
 Connecting social media accounts in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.
  
-Your organisation page provides an overview of members and contacts in your organisation as well as the possibility to add new members.
+Your organization page provides an overview of members and contacts in your organization as well as the possibility to add new members.
  
 The Plans & Billing page allows you to manage your licenses and payment options.
 >Check the available license plans [here](https://cumul.io/pricing)
@@ -376,10 +376,10 @@ A the top of the canvas, you can switch views between mobile, tablet and desktop
  
 So you’ve gotten your insights ready and created a stunning dashboard? Great! Let’s share it! 
 
-Sharing a dashboard is similar to sharing a dataset. You can share with other Cumul.io groups and users within your organisation, or you can share publicly.
+Sharing a dashboard is similar to sharing a dataset. You can share with other Cumul.io groups and users within your organization, or you can share publicly.
 >![Share dashboard](http://i.imgur.com/gBftuVN.png?1)
 
-To share a dashboard with groups or users in your organisation, select a specific user and assign them the role you allow them to have. There are several levels of access that users may have:
+To share a dashboard with groups or users in your organization, select a specific user and assign them the role you allow them to have. There are several levels of access that users may have:
 + “Can view” means the user can view the dashboard but cannot edit or make a duplicate
 + “Can use” means the user can make a duplicate, but cannot edit the original dashboard
 + “Can Edit” means the user can view, use and edit the Dashboard
