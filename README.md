@@ -174,6 +174,7 @@ There are three different kind of joins in Cumul.io
 ##Sharing datasets
  
 Sharing datasets can be done with users or groups that exist within your organization or business. There are several levels of access that users may have. 
+>![Sharing datasets](http://i.imgur.com/jVmlzns.png?1)
 
 + “Viewers” are simply able to view the dataset but cannot use it in a dashboard. 
 + “Can use” means the user is able to use the dataset in a dashboard. 
@@ -200,6 +201,7 @@ There are three main parts to the dashboard editor: the items bar on the left, t
 Selecting ‘add item’ on left-hand pane will display the different items you can drag and drop into the canvas. There are general items, filters, classic charts, maps and more complex charts. We will discuss each object in more detail:
 
 ###General
+>![General Items](http://i.imgur.com/9Nb66pK.png)
 
 + A **text object** creates a formattable template text box. It can be used for adding sources or adding additional information about the items or data displayed. 
 
@@ -214,6 +216,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 + A **spacer** allows you to create self-defined gaps between the items in your dashboard, allowing for a more attractive layout organization.
 
 ###Filters
+>![Filters](http://i.imgur.com/S7mDfNc.png)
 
 + A **date filter** allows you to specify which time period is displayed for your items. Applying a filter item filters the dates for the entire dashboard. 
 
@@ -226,6 +229,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 + A **slicer** allows users to select which dimensions to display by means of a check-box list of  items. 
 
 ###Bar & Column Charts
+>![Bar and column charts](http://i.imgur.com/1C5wYAb.png)
 
 + A **bar chart** is a graph that displays grouped data using rectangular bars. The lengths of the bars are proportional to the values that they represent. 
 
@@ -236,6 +240,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 + The **column charts (column, grouped column, stacked column)** are identical to the bar charts, except that data is plotted vertically instead of horizontally. For the stacked column chart, data items are then stacked on top of one another. 
 
 ###Line charts
+>![Line charts](http://i.imgur.com/nr8o3FE.png)
 
 + A **line chart** is a graph displaying information as a series of data points that are connected by straight line segments. This classic chart is common for many purposes, but is most often used to represent changes in data over time. For example, a line connected between data points for sales volume per month helps to visually represent the increase or decrease in sales that occur from one month to the next. 
 
@@ -244,6 +249,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 + A **line color chart** can be used to visually point out various trends or categories of the data line displayed. For example, color coding can be used to indicate those months when sales are increasing or decreasing, or, as another example, months when sales are at a peak period. 
 
 ###Scatter & Bubble Plots
+>![Scatter & Bubbtl plots](http://i.imgur.com/Jvuwjaq.png)
 
 + A **scatter plot** is one of the simplest ways to represent data by plotting two variables against each other. This type of chart is best used to represent continuous rather than categorical variables. The result is a series or “scatter” of individual points. Each data point then represents one XY value. 
 
@@ -254,6 +260,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 + A **colored bubble chart** differentiates the chart as in the group scatter, further dividing the data into sub-groups.
 
 ###Area Charts
+>![Area Charts](http://i.imgur.com/devYjH0.png)
 
 + An area chart is simply a line chart with the area below the line filled in. This is best used to display the cumulative volume of a variable over time. 
 
@@ -264,6 +271,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 + A **streamgraph** is a type of stacked area chart which is displaced around a central axis, resulting in a flowing, organic shape. This can ideally be used to represent the evolution of an overall total over time, as well as the relative contributions of various sub-parts. As an example, consider a company selling multiple smartphone applications to users. The company could use a streamgraph to show the evolution of total application use of users over time, and could differentiate the stream based on the relative use of each individual application.
 
 ###Pie & Donut
+>![Pie and Donut](http://i.imgur.com/PKu0vB4.png)
 
 + A **Pie chart** is a graph where a circle is divided into sectors that each represent a proportion of the whole. The arc length of each slice is proportional to the value it represent. This type of chart is often used in business and media. 
 
@@ -273,11 +281,13 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 
 
 ###Small Multiples
+>![Small Multiples](http://i.imgur.com/dpf4dG7.png)
 
 + **Multiples charts** can be used to combine several charts into one figure. This is often done when multiple trends are interconnected by sharing an x- or y-axis. ... These will soon be added to the platform! 
 
 
 ###Maps
+>![Maps](http://i.imgur.com/h45F3Oi.png)
 
 + A **cloropleth map** uses variations in shading or coloring over a predefined area in order to explain the average values of a variable in that area. For example, the average unemployment in each province in Belgium can be displayed, using a shading percentage that is proportional to the unemployment level. 
 
@@ -294,24 +304,40 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 + **Dot map**: Coming soon to Cumul.io!
 
 ###Special Charts
-+ A bubble chart is a simple version of the bubble scatter mentioned above, and can be used to represent quantitative information by means of the shapes of various circles, or ‘bubbles’, displayed next to one another on the chart, with sizes proportional to the quantity they represent. It can be used, for example, to explain the volume of different types of products sold by company. 
-+ Strip plots are arranged with categories on the x-axis and display the distribution of points over each category, or the extent of a ‘column’. This gives users a better idea of the distribution their data has in various groups, and allows for a better visualization of other metrics like the mean, distribution quartiles, and outliers. For example, a marketing company can investigate the variation in the number of contracts signed, grouped by various business sectors for comparison.
-+ A treemap is a visualization of hierarchical structures, using a set of nested rectangles organized within a predefined space. Each branch of a tree is represented in a rectangle, and within this rectangle, smaller rectangles represent sub-branches. Color coding can be used for separate dimensions of the data. This type of visualization helps users to compare nodes and sub-branches in a compact way, even when various branches are far removed from one another in the tree. This is good for spotting patterns and trends. 
-+ A radar chart, also called a web, spider or star chart, is a plot consisting of a series of equi-angular lines, or spokes, originating and extending from the same point. The position of the data value along each spoke is proportional to the magnitude of the variable in question for that spoke. Lines connecting the data values for each spoke give it a star-like or web-like appearance. Several variables can be analyzed in one chart, making it a useful way to represent multivariate information. For example, a radar chart could represent the overall budget scheme of a company, where overall revenues from sales is allocated to meet the needs of the different departments of HR, marketing, technical development, etc. 
-+ Heat matrix: Coming soon to Cumul.io!
-+ Bar line chart: Coming soon to Cumul.io!
-+ Pareto diagram: Coming soon to Cumul.io!
-+ Boxplot: Coming soon to Cumul.io!
-+ Boxplot with width: Coming soon to Cumul.io!
-+ Bullet chart: Coming soon to Cumul.io!
-+ Dot chart: Coming soon to Cumul.io!
-+ Pyramid: Coming soon to Cumul.io!
+>![special charts](http://i.imgur.com/coIYMTY.png)
+
++ A **bubble chart** is a simple version of the bubble scatter mentioned above, and can be used to represent quantitative information by means of the shapes of various circles, or ‘bubbles’, displayed next to one another on the chart, with sizes proportional to the quantity they represent. It can be used, for example, to explain the volume of different types of products sold by company. 
+
++ **Strip plots** are arranged with categories on the x-axis and display the distribution of points over each category, or the extent of a ‘column’. This gives users a better idea of the distribution their data has in various groups, and allows for a better visualization of other metrics like the mean, distribution quartiles, and outliers. For example, a marketing company can investigate the variation in the number of contracts signed, grouped by various business sectors for comparison.
+
++ A **treemap** is a visualization of hierarchical structures, using a set of nested rectangles organized within a predefined space. Each branch of a tree is represented in a rectangle, and within this rectangle, smaller rectangles represent sub-branches. Color coding can be used for separate dimensions of the data. This type of visualization helps users to compare nodes and sub-branches in a compact way, even when various branches are far removed from one another in the tree. This is good for spotting patterns and trends. 
+
++ A **radar chart**, also called a web, spider or star chart, is a plot consisting of a series of equi-angular lines, or spokes, originating and extending from the same point. The position of the data value along each spoke is proportional to the magnitude of the variable in question for that spoke. Lines connecting the data values for each spoke give it a star-like or web-like appearance. Several variables can be analyzed in one chart, making it a useful way to represent multivariate information. For example, a radar chart could represent the overall budget scheme of a company, where overall revenues from sales is allocated to meet the needs of the different departments of HR, marketing, technical development, etc. 
+
++ **Heat matrix**: Coming soon to Cumul.io!
+
++ **Bar line chart**: Coming soon to Cumul.io!
+
++ **Pareto diagram**: Coming soon to Cumul.io!
+
++ **Boxplot**: Coming soon to Cumul.io!
+
++ **Boxplot with width**: Coming soon to Cumul.io!
+
++ **Bullet chart**: Coming soon to Cumul.io!
+
++ **Dot chart**: Coming soon to Cumul.io!
+
++ **Pyramid**: Coming soon to Cumul.io!
 
 
 ###Financial Charts
-+ Open-high-low-close chart: Coming soon to Cumul.io!
-+ Candlestick chart: Coming soon to Cumul.io!
-+ Kagi chart: Coming soon to Cumul.io!
+
++ **Open-high-low-close chart**: Coming soon to Cumul.io!
+
++ **Candlestick chart**: Coming soon to Cumul.io!
+
++ **Kagi chart**: Coming soon to Cumul.io!
 
 
 ## Settings Pane
