@@ -80,6 +80,7 @@ By clicking the bright blue “new dataset” button, you will open a modal wind
  
 You can browse to select local files to upload them unto the platform, or simply drag and drop files into the upload window provided. <br><br>
 Supported file types currently include:
+
  + CSV
  + TSV
  + JSON
