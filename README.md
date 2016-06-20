@@ -336,6 +336,7 @@ The canvas serves as your ultimate workspace, where you can drop any of the obje
 >[![Screenshot of canvas dashboard](https://img.youtube.com/vi/ex-mOJ_3sns/0.jpg)](https://www.youtube.com/watch?v=ex-mOJ_3sns)
 
 On the right hand side of each object, three icons appear that allow the user to 
+
 + (1) adjust data properties
 + (2) adjust settings for the object, and 
 + (3) delete the object entirely. 
@@ -354,6 +355,7 @@ Sharing a dashboard is similar to sharing a dataset. You can share with other Cu
 >![Share dashboard](http://i.imgur.com/gBftuVN.png?1)
 
 To share a dashboard with groups or users in your organization, select a specific user and assign them the role you allow them to have. There are several levels of access that users may have:
+
 + “Can view” means the user can view the dashboard but cannot edit or make a duplicate
 + “Can use” means the user can make a duplicate, but cannot edit the original dashboard
 + “Can Edit” means the user can view, use and edit the Dashboard
