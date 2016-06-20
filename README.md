@@ -18,18 +18,16 @@ Looking for a quick and easy way to get started (or don't want to read the compl
 
 ## Registering & sign in
 
-Registering is simple, just leave your name, email address and password and we’ll create an account for you. You’ll be redirected to the platform immediately.
-
+Registering is simple, just leave your name, email address and password and we’ll create an account for you. You’ll be redirected to the platform immediately.<br><br>
 Login is pretty straightforward too, just fill in your credentials or sign in with Google, Facebook or Twitter, if you’ve linked these to your profile.
 
 >![Login modal](http://i.imgur.com/1erdGEf.png)
 
 ##Navigation
 
-You’ll first arrive at the overview page, which gives a summary of your latest dashboards as well as the hottest datasets available on the the platform. From here, you can navigate to tabs for your datasets and dashboards if you want to start creating visualizations, or you can access your profile using the top right icon to update personal information.
->![Overview screenshot](http://i.imgur.com/m1rpojh.png?1)
-
+You’ll first arrive at the overview page, which gives a summary of your latest dashboards as well as the hottest datasets available on the the platform. From here, you can navigate to tabs for your datasets and dashboards if you want to start creating visualizations, or you can access your profile using the top right icon to update personal information. <br><br>
 Under both the datasets and dashboards tab, there are different options for displaying personal data, data shared with you by others, and data available to the public. You will also find a search function to filter your datasets or dashboards using keywords. 
+>![Overview screenshot](http://i.imgur.com/m1rpojh.png?1)
 
 ##Notifications 
 At any point in the app, you can receive **notifications** by way of the notifications widget, accessible by the icon in the top right of the page, beside your profile. 
@@ -41,14 +39,11 @@ At any point in the app, you can receive **notifications** by way of the notific
  
 ##Profile & profile details
 
-On the profile page, you can adjust your personal profile details, add social media accounts, manage your organization or business, and access your billing plans.
->![profile page](http://i.imgur.com/GxF8CoZ.png?1)
- 
-Connecting social media accounts in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.
- 
-Your organization page provides an overview of members and contacts in your organization as well as the possibility to add new members.
- 
+On the profile page, you can adjust your personal profile details, add social media accounts, manage your organization or business, and access your billing plans. <br><br>
+Connecting social media accounts in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.<br><br>
+Your organization page provides an overview of members and contacts in your organization as well as the possibility to add new members.<br><br>
 The Plans & Billing page allows you to manage your licenses and payment options.
+>![profile page](http://i.imgur.com/GxF8CoZ.png?1)
 >Check the available license plans [here](https://cumul.io/pricing)
 
 #Datasets Tab
@@ -65,11 +60,8 @@ By clicking the bright blue “new dataset” button, you will open a modal wind
  
 ###    Local files
  
-You can browse to select local files to upload them unto the platform, or simply drag and drop files into the upload window provided.
->![Add Local files](http://i.imgur.com/XGqWqYZ.png?1)
-
-Supported file types currently include: 
-
+You can browse to select local files to upload them unto the platform, or simply drag and drop files into the upload window provided. <br><br>
+Supported file types currently include: <br><br>
 + CSV 
 + TSV
 + JSON
@@ -79,6 +71,7 @@ Supported file types currently include:
 + xlsx
 + xlsb
 + csb
+>![Add Local files](http://i.imgur.com/XGqWqYZ.png?1)
 
 
 
