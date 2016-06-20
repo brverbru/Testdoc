@@ -5,14 +5,14 @@ Welcome to Cumul.io! You’ve definitely made the right choice in signing up! Yo
 
 >Can’t find what you were looking for in our guidelines? Drop us an email at **support@cumul.io** and we’ll help you out asap. 
 
->Alternatively you can **live chat** with our support team or leave feedback/report bugs using the square tabs that appear on the left-hand side of the webpage. c
+>Alternatively you can **live chat** with our support team or leave feedback/report bugs using the square tabs that appear on the left-hand side of the webpage.
 
 
 # Getting started
 ## Quick start
 
 
-Looking for a quick and easy way to get started (or don't want to read the complete guide) ? Check out of our getting started tutorials! 
+Looking for a quick and easy way to get started (or don't want to read the complete guide)? Check out of our getting started tutorial videos! 
 >Tutorial 1: Getting started with the [dashboard editor](https://www.youtube.com/watch?v=33Rq0s9QqJU).
 
 
@@ -52,8 +52,6 @@ The Plans & Billing page allows you to manage your licenses and payment options.
 >Check the available license plans [here](https://cumul.io/pricing)
 
 #Datasets Tab
- 
-##Overview
  
 The dataset tabs displays an overview of your uploaded or connected datasets and allows you to add new datasets. You can search for datasets here as well.
 >![Dataset tab](http://i.imgur.com/EaMLvz4.png?1)
@@ -111,8 +109,7 @@ The Cumul.io API makes it possible to interact with Cumul.io in a programmatic w
 
 
 ##Dataset page
-###Overview of the page
- 
+
 Selecting a dataset will direct you to its contents and structure. Each column displayed is a field, and each row represents one record. The charts at the top of each column show the distribution of the data contained in the field. The search function enables you to quickly find specific values. You can change the data type by selecting the data icon displayed to the left of each field name. You can edit the hierarchy, calculate a derived column or delete the row by selecting the options icon at the right of each data distribution display. 
 >![Dataset page](http://i.imgur.com/QHDgkNF.png?1)
 
@@ -183,7 +180,6 @@ Sharing datasets can be done with users or groups that exist within your organiz
 
 
 #Dashboards Tab
-##Overview & Navigation
 
 The dashboards tab displays your latest dashboard, dashboards that have been shared with you or dashboards that are shared publicly. This tab is your gateway to the dashboard editor, which what you connect to from the bright blue “New dashboard” button. This is where you can start what you’ve been waiting to do, creating visualizations of your data! Read on in the following sections to find out all about the Dashboard editor.
 
