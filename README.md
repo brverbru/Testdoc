@@ -156,7 +156,7 @@ Under the Datasets tab you find your list of datasets, and using the icons on th
 In order to blend datasets together, you must first specify how different datasets are linked. Therefore, find the links modal option within your dataset view. As with most operations in Cumul.io, you can create a link by dragging the foreign key (of your lookup table) to the primary key (of your master table). Yes, the overall principle is as simple as that! However, let’s talk about some of the details of how the platform performs the links.
 >![Joinsandlinks](http://i.imgur.com/quvhQpT.png?1)
 
->Joins and links are done using the LOOKUP principle, which is as straightforward as it sounds: Cumul.io “looks up” a specified value in another dataset. A join therefore occurs when the specified value of a field in dataset A is found in another field from Dataset B. 
+Joins and links are done using the LOOKUP principle, which is as straightforward as it sounds: Cumul.io “looks up” a specified value in another dataset. A join therefore occurs when the specified value of a field in dataset A is found in another field from Dataset B. 
 
 There are three different kind of joins in Cumul.io 
 
@@ -344,15 +344,10 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 
 The general dashboard settings can be found in the taskbar pane in the right-most tab (you guessed it, the settings tab). These settings are applicable to the entire dashboard. You can enable or disable a dashboard (sub)title here, specify the margin between objects, and do all kinds of other things as well. Explore the options for yourself! 
 >![Settings](http://i.imgur.com/E6lHObQ.png?1)
-
 These settings are valid for the complete dashboard and all of its views (desktop, tablet, mobile) except if you have unsynced the different views. We’ll get to that. 
- 
 As with the settings tab, the filters tab makes changes that are applicable to the complete dashboard. This means that if you filter out certain records here, they will never be shown or taken into account for any item you place in your dashboard. 
-
 Any field of any dataset can be filtered, as long as the dataset is being used in the dashboard. Possible filters include, but are not limited to, ‘is in’, ‘equals’, ‘is greater than’, ... The usual stuff!
-
 The data tab allows you to navigate to your datasets and add them to the canvas. Simply select a dataset and drag and drop fields to the canvas! 
-
 The item tab show you the selected item’s specific settings. These settings involve general things like title, background, and borders, but also displays item-specific settings that influence the visualization. 
 
 
