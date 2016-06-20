@@ -62,9 +62,11 @@ The Plans & Billing page allows you to manage your licenses and payment options.
 >Check the available license plans [here](https://cumul.io/pricing)
 
 #Datasets Tab
+
+>![Dataset tab](http://i.imgur.com/EaMLvz4.png?1)
  
 The dataset tabs displays an overview of your uploaded or connected datasets and allows you to add new datasets. You can search for datasets here as well.
->![Dataset tab](http://i.imgur.com/EaMLvz4.png?1)
+
 
 
 ##Connecting new datasets
@@ -74,21 +76,36 @@ By clicking the bright blue “new dataset” button, you will open a modal wind
  
 ###    Local files
  
+ >![Add Local files](http://i.imgur.com/XGqWqYZ.png?1)
+ 
 You can browse to select local files to upload them unto the platform, or simply drag and drop files into the upload window provided. <br><br>
-Supported file types currently include: <br><br>
-CSV, TSV, JSON, topoJSON, geoJSON, xls, xlsx, xlsb, csb
->![Add Local files](http://i.imgur.com/XGqWqYZ.png?1)
+Supported file types currently include:
+ + CSV
+ + TSV
+ + JSON
+ + topoJSON
+ + geoJSON
+ + xls
+ + xlsx
+ + xlsb
+ + csb
+
 
 
 
 ###Web services
+
+>![Add webservice](http://i.imgur.com/I2D0sEe.png?1) 
  
 Web services integration allows you to fetch data directly from your personal webservices. For example, connect to your Facebook or Google Drive account. The first time you connect to each external account, you will be provided with an initial prompt to login with your credentials. 
->![Add webservice](http://i.imgur.com/I2D0sEe.png?1)
+
 
 ####Quandl
-Quandl delivers financial and economic data from hundreds of sources via their API. Cumul.io organizes all their datasets and automatically converts them in the right datatypes, ready to be blended with your personal data. In order to connect to a Quandl dataset, simply search for it and click the upload button. We'll take it from here. 
+
 >![Quandl](http://i.imgur.com/nw3lU1H.png?1)
+
+Quandl delivers financial and economic data from hundreds of sources via their API. Cumul.io organizes all their datasets and automatically converts them in the right datatypes, ready to be blended with your personal data. In order to connect to a Quandl dataset, simply search for it and click the upload button. We'll take it from here. 
+
 
 ####Google drive
 ####Google Analytics
@@ -104,14 +121,19 @@ Data source integration enables you to connect to an external database.
 ####Maria DB
  
 ###Using the API
-The Cumul.io API makes it possible to interact with Cumul.io in a programmatic way, for example to create datasets and dashboards, push real-time data, develop your own custom integrations to data sources or retrieve sliced & diced, aggregated data from your datasets.
+
 >Read the complete API documentation [here](http://docs.cumul.io) 
+
+The Cumul.io API makes it possible to interact with Cumul.io in a programmatic way, for example to create datasets and dashboards, push real-time data, develop your own custom integrations to data sources or retrieve sliced & diced, aggregated data from your datasets.
+
 
 
 ##Dataset page
 
-Selecting a dataset will direct you to its contents and structure. Each column displayed is a field, and each row represents one record. The charts at the top of each column show the distribution of the data contained in the field. The search function enables you to quickly find specific values. You can change the data type by selecting the data icon displayed to the left of each field name. You can edit the hierarchy, calculate a derived column or delete the row by selecting the options icon at the right of each data distribution display. 
 >![Dataset page](http://i.imgur.com/QHDgkNF.png?1)
+
+Selecting a dataset will direct you to its contents and structure. Each column displayed is a field, and each row represents one record. The charts at the top of each column show the distribution of the data contained in the field. The search function enables you to quickly find specific values. You can change the data type by selecting the data icon displayed to the left of each field name. You can edit the hierarchy, calculate a derived column or delete the row by selecting the options icon at the right of each data distribution display. 
+
 
 Furthermore, you can navigate to the dataset detail page, manage datasets links or share the dataset by clicking the respective links in the top right of the screen.
 
@@ -130,31 +152,39 @@ The cumul.io platform supports several types of data:
  
 ##Derived columns
 
+>![Derived Columns](http://i.imgur.com/y8dQvNz.png?1)
+
 The Derived Column option basically does what it says: it allows new data fields to be derived from your existing data. This is done by way of a “transformation” that creates new column values by applying expressions to the transformation input columns. This process is similar to most spreadsheet operations. <br><br>
 To get you started, consider some of the following features of our platform. An expression can contain any combination of variables, functions, operators, and columns from the transformation input. The result may either be added as a new column or may be inserted into an existing column as a replacement value. The Derived Column transformation can define multiple derived columns at once, and any variable or input columns can appear in multiple expressions. <br><br>
 It is possible to concatenate data from different columns into a derived column. <br><br>
 For example, say you have a column for “first name” and a column for “last name” and you would like to combine them into one field representing a full name. The values from FirstName and LastName columns can be combined into the single derived column of FullName, by using the expression FirstName + " " + LastName.<br><br>
 Mathematical functions can be applied to numeric data and the result can be stored in a derived column. <br><br>
 For example, you could change the length and precision of a numeric column, SalesTax, to a number with two decimal places by using the expression ROUND (SalesTax, 2).
->![Derived Columns](http://i.imgur.com/y8dQvNz.png?1)
+
 
 
 ##Dataset detail page
 
+>![Dataset detail page](http://i.imgur.com/pGAWdHk.png?1)
+
 Under the Datasets tab you find your list of datasets, and using the icons on the right-hand side of each dataset listed, you can perform simple actions, or you may navigate to the dataset info page. This is where you can find general information on your specific dataset and perform a variety actions. You may see the details of the information stored in the dataset, share it with your team, delete the dataset or upload a newer version. <br><br>
 This page also allows you to add tags as well as a description, which is helpful for finding the dataset using the search function. This is especially useful if you decide to publicly publish your dataset, because it enables other users to easily find your data. 
->![Dataset detail page](http://i.imgur.com/pGAWdHk.png?1)
+
  
 ##Joins & Links
 
-In order to blend datasets together, you must first specify how different datasets are linked. Therefore, find the links modal option within your dataset view. As with most operations in Cumul.io, you can create a link by dragging the foreign key (of your lookup table) to the primary key (of your master table). Yes, the overall principle is as simple as that! However, let’s talk about some of the details of how the platform performs the links. <br><br> Joins and links are done using the LOOKUP principle, which is as straightforward as it sounds: Cumul.io “looks up” a specified value in another dataset. A join therefore occurs when the specified value of a field in dataset A is found in another field from Dataset B.
 >![Joinsandlinks](http://i.imgur.com/quvhQpT.png?1)
+
+In order to blend datasets together, you must first specify how different datasets are linked. Therefore, find the links modal option within your dataset view. As with most operations in Cumul.io, you can create a link by dragging the foreign key (of your lookup table) to the primary key (of your master table). Yes, the overall principle is as simple as that! However, let’s talk about some of the details of how the platform performs the links. <br><br> Joins and links are done using the LOOKUP principle, which is as straightforward as it sounds: Cumul.io “looks up” a specified value in another dataset. A join therefore occurs when the specified value of a field in dataset A is found in another field from Dataset B.
+
 
 There are three different kind of joins in Cumul.io <br><br> <ul><li>Exact match: This is possible when a value in dataset A is exactly the same as in dataset B. For example, this could be a customer ID or reference code that is the same in each of your datasets.</li><li>Fuzzy match: This option is used when a value in dataset A is very similar to the corresponding value in dataset B. For example, if customer names are filled in manually and some typing errors were made, a match can still be found.</li><li>Time match: This joins datetime values of dataset A to dataset B, with the option of defining the match in different ways. After creating your link in the modal, the following options can be chosen by selecting the icon on your link. </li><ul><li>Value A is closest to a datetime Value B</li><li>Value A is closest to, but occurring after a datetime Value B</li><li>Value A is closest to, but occurring before a datetime Value B </li></ul></ul>
 
 
  
 ##Sharing datasets
+ 
+>![Sharing datasets](http://i.imgur.com/jVmlzns.png?1)
  
 Sharing datasets can be done with users or groups that exist within your organization or business. There are several levels of access that users may have. 
 
@@ -163,7 +193,7 @@ Sharing datasets can be done with users or groups that exist within your organiz
 + “Edit” means the user can view, use and edit the dataset.
 + An “owner” can do all of the above and can also adjust the privileges and roles of each dataset user, specifying whether they can view, use, edit or become the owner of a dataset. 
 
->![Sharing datasets](http://i.imgur.com/jVmlzns.png?1)
+
 
 
 #Dashboards Tab
