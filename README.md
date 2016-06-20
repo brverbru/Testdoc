@@ -12,8 +12,8 @@ Welcome to Cumul.io! You’ve definitely made the right choice in signing up! Yo
 ## Quick start tutorials
 
 
-Looking for a quick and easy way to get started (or don't want to read the complete guide)? Check out of our getting started tutorial videos! 
->Tutorial 1: Getting started with the dashboard editor.
+Looking for a quick and easy way to get started (or don't want to read the complete guide)? Check out our getting started tutorial videos! 
+>**Tutorial 1**: Getting started with the dashboard editor.
 
 >[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/33Rq0s9QqJU/0.jpg)](https://www.youtube.com/watch?v=33Rq0s9QqJU)
 
@@ -331,7 +331,7 @@ The item tab show you the selected item’s specific settings. These settings in
  
 The canvas serves as your ultimate workspace, where you can drop any of the objects you need and start analyzing. Within an object that you add to the canvas, there are different slots into which you can drag data. This generally corresponds to the  ‘X-axis’ (independent variable), the ‘Measure’ (y-axis, or dependent variable), and a ‘group-by’ function allowing further differentiation of the data. Some slots are limited to certain data types. For example, a bar chart, inherent in its definition, is only limited to categorical variables on the y-axis, while the y-axis of line charts can accommodate both continuous and categorical data. 
 
-> An example video of this drag & drop feature: 
+> This drag & drop functionality is illustration in the following video:  
 
 >[![Screenshot of canvas dashboard](https://img.youtube.com/vi/ex-mOJ_3sns/0.jpg)](https://www.youtube.com/watch?v=ex-mOJ_3sns)
 
