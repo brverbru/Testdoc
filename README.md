@@ -357,24 +357,26 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 
 ## Settings Pane
 
+>![Settings](http://i.imgur.com/E6lHObQ.png?1)
+
 The general dashboard settings can be found in the taskbar pane in the right-most tab (you guessed it, the settings tab). These settings are applicable to the entire dashboard. You can enable or disable a dashboard (sub)title here, specify the margin between objects, and do all kinds of other things as well. Explore the options for yourself! <br><br>
 These settings are valid for the complete dashboard and all of its views (desktop, tablet, mobile) except if you have unsynced the different views. We’ll get to that. <br><br>
 As with the settings tab, the filters tab makes changes that are applicable to the complete dashboard. This means that if you filter out certain records here, they will never be shown or taken into account for any item you place in your dashboard. <br><br>
 Any field of any dataset can be filtered, as long as the dataset is being used in the dashboard. Possible filters include, but are not limited to, ‘is in’, ‘equals’, ‘is greater than’, ... The usual stuff!<br><br>
 The data tab allows you to navigate to your datasets and add them to the canvas. Simply select a dataset and drag and drop fields to the canvas! <br><br>
 The item tab show you the selected item’s specific settings. These settings involve general things like title, background, and borders, but also displays item-specific settings that influence the visualization. 
->![Settings](http://i.imgur.com/E6lHObQ.png?1)
+
 
 
  
  
 ##Canvas
- 
-The canvas serves as your ultimate workspace, where you can drop any of the objects you need and start analyzing. Within an object that you add to the canvas, there are different slots into which you can drag data. This generally corresponds to the  ‘X-axis’ (independent variable), the ‘Measure’ (y-axis, or dependent variable), and a ‘group-by’ function allowing further differentiation of the data. Some slots are limited to certain data types. For example, a bar chart, inherent in its definition, is only limited to categorical variables on the y-axis, while the y-axis of line charts can accommodate both continuous and categorical data. 
 
-> This drag & drop functionality is illustration in the following video:  
+> This drag & drop functionality is illustrated in the following video:  
 
 >[![Screenshot of canvas dashboard](https://img.youtube.com/vi/ex-mOJ_3sns/0.jpg)](https://www.youtube.com/watch?v=ex-mOJ_3sns)
+ 
+The canvas serves as your ultimate workspace, where you can drop any of the objects you need and start analyzing. Within an object that you add to the canvas, there are different slots into which you can drag data. This generally corresponds to the  ‘X-axis’ (independent variable), the ‘Measure’ (y-axis, or dependent variable), and a ‘group-by’ function allowing further differentiation of the data. Some slots are limited to certain data types. For example, a bar chart, inherent in its definition, is only limited to categorical variables on the y-axis, while the y-axis of line charts can accommodate both continuous and categorical data. 
 
 On the right hand side of each object, three icons appear that allow the user to 
 
@@ -390,10 +392,13 @@ A the top of the canvas, you can switch views between mobile, tablet and desktop
  
 ###Sharing dashboard
  
+>![Share dashboard](http://i.imgur.com/gBftuVN.png?1) 
+ 
+ 
 So you’ve gotten your insights ready and created a stunning dashboard? Great! Let’s share it! 
 
 Sharing a dashboard is similar to sharing a dataset. You can share with other Cumul.io groups and users within your organization, or you can share publicly.
->![Share dashboard](http://i.imgur.com/gBftuVN.png?1)
+
 
 To share a dashboard with groups or users in your organization, select a specific user and assign them the role you allow them to have. There are several levels of access that users may have:
 
