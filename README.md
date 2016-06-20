@@ -342,11 +342,11 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 
 ## Settings Pane
 
-The general dashboard settings can be found in the taskbar pane in the right-most tab (you guessed it, the settings tab). These settings are applicable to the entire dashboard. You can enable or disable a dashboard (sub)title here, specify the margin between objects, and do all kinds of other things as well. Explore the options for yourself! 
-These settings are valid for the complete dashboard and all of its views (desktop, tablet, mobile) except if you have unsynced the different views. We’ll get to that. 
-As with the settings tab, the filters tab makes changes that are applicable to the complete dashboard. This means that if you filter out certain records here, they will never be shown or taken into account for any item you place in your dashboard. 
-Any field of any dataset can be filtered, as long as the dataset is being used in the dashboard. Possible filters include, but are not limited to, ‘is in’, ‘equals’, ‘is greater than’, ... The usual stuff!
-The data tab allows you to navigate to your datasets and add them to the canvas. Simply select a dataset and drag and drop fields to the canvas! 
+The general dashboard settings can be found in the taskbar pane in the right-most tab (you guessed it, the settings tab). These settings are applicable to the entire dashboard. You can enable or disable a dashboard (sub)title here, specify the margin between objects, and do all kinds of other things as well. Explore the options for yourself! <br>
+These settings are valid for the complete dashboard and all of its views (desktop, tablet, mobile) except if you have unsynced the different views. We’ll get to that. <br>
+As with the settings tab, the filters tab makes changes that are applicable to the complete dashboard. This means that if you filter out certain records here, they will never be shown or taken into account for any item you place in your dashboard. <br>
+Any field of any dataset can be filtered, as long as the dataset is being used in the dashboard. Possible filters include, but are not limited to, ‘is in’, ‘equals’, ‘is greater than’, ... The usual stuff!<br>
+The data tab allows you to navigate to your datasets and add them to the canvas. Simply select a dataset and drag and drop fields to the canvas! <br>
 The item tab show you the selected item’s specific settings. These settings involve general things like title, background, and borders, but also displays item-specific settings that influence the visualization. 
 >![Settings](http://i.imgur.com/E6lHObQ.png?1)
 
