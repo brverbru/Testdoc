@@ -330,6 +330,9 @@ The item tab show you the selected item’s specific settings. These settings in
 ##Canvas
  
 The canvas serves as your ultimate workspace, where you can drop any of the objects you need and start analyzing. Within an object that you add to the canvas, there are different slots into which you can drag data. This generally corresponds to the  ‘X-axis’ (independent variable), the ‘Measure’ (y-axis, or dependent variable), and a ‘group-by’ function allowing further differentiation of the data. Some slots are limited to certain data types. For example, a bar chart, inherent in its definition, is only limited to categorical variables on the y-axis, while the y-axis of line charts can accommodate both continuous and categorical data. 
+
+> An example video of this drag & drop feature: 
+
 >[![Screenshot of canvas dashboard](https://img.youtube.com/vi/ex-mOJ_3sns/0.jpg)](https://www.youtube.com/watch?v=ex-mOJ_3sns)
 
 On the right hand side of each object, three icons appear that allow the user to 
