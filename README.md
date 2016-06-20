@@ -174,7 +174,7 @@ There are three main parts to the dashboard editor: the items bar on the left, t
 Selecting ‘add item’ on left-hand pane will display the different items you can drag and drop into the canvas. There are general items, filters, classic charts, maps and more complex charts. We will discuss each object in more detail:
 
 ###General
-
+>![General Items](http://i.imgur.com/YyLjjgS.png?1)
 
 + A **text object** creates a formattable template text box. It can be used for adding sources or adding additional information about the items or data displayed. 
 
@@ -187,7 +187,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 + A **Table object** adds a table to the canvas. A **pivot table** allows you to make a table based on datasets linked to one another. If the datasets are not already linked, you will get a prompt to do so when you add a column from a different dataset to the pivot table.
 
 + A **spacer** allows you to create self-defined gaps between the items in your dashboard, allowing for a more attractive layout organization.
->![General Items](http://i.imgur.com/YyLjjgS.png?1)
+
 
 ###Filters
 >![Filters](http://i.imgur.com/je3H4AH.png?1)
