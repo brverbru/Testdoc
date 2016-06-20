@@ -363,7 +363,7 @@ On the right hand side of each object, three icons appear that allow the user to
 + (1) adjust data properties
 + (2) adjust settings for the object, and 
 + (3) delete the object entirely. 
->![Three buttons]()
+
 
  
 ###Screensize views
