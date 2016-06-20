@@ -5,7 +5,7 @@ Welcome to Cumul.io! You’ve definitely made the right choice in signing up! Yo
 
 >Can’t find what you were looking for in our guidelines? Drop us an email at **support@cumul.io** and we’ll help you out asap. 
 
->Alternatively you can **live chat** with our support team or leave feedback/report bugs using the square tabs that appear on the left-hand side of the webpage. 
+>Alternatively you can **live chat** with our support team or leave feedback/report bugs using the square tabs that appear on the left-hand side of the webpage. c
 
 
 # Getting started
@@ -49,7 +49,7 @@ Connecting social media accounts in the Social Accounts tab allows you to share 
 Your organisation page provides an overview of contacts in your organisation /////ASK KAREL OR HAROEN
  
 The Plans & Billing page allows you to manage your licenses and payment options.
->Check available license plans [here](https://cumul.io/pricing)
+>Check the available license plans [here](https://cumul.io/pricing)
 
 #Datasets Tab
  
@@ -69,6 +69,7 @@ By clicking the bright blue “new dataset” button, you will open a modal wind
  
 You can browse to select local files to upload them unto the platform, or simply drag and drop files into the upload window provided.
 >![Add Local files](http://i.imgur.com/XGqWqYZ.png?1)
+
 Supported file types currently include: 
 
 + CSV 
@@ -89,7 +90,9 @@ Web services integration allows you to fetch data directly from your personal we
 >![Add webservice](http://i.imgur.com/I2D0sEe.png?1)
 
 ####Quandl
-Quandl delivers financial and economic data from hundreds of sources via their API. Cumul.io organizes all their datasets and automatically converts them in the right datatypes, ready to be blended with your personal data. In order to connect to a Quandl dataset, simply 
+Quandl delivers financial and economic data from hundreds of sources via their API. Cumul.io organizes all their datasets and automatically converts them in the right datatypes, ready to be blended with your personal data. In order to connect to a Quandl dataset, simply search for it and click the upload button. We'll take it from here. 
+>![Quandl](http://i.imgur.com/nw3lU1H.png?1)
+
 ####Google drive
 ####Google Analytics
  
