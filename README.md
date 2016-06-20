@@ -156,6 +156,7 @@ In order to blend datasets together, you must first specify how different datase
 >![Joinsandlinks](http://i.imgur.com/quvhQpT.png?1)
 
 >Joins and links are done using the LOOKUP principle, which is as straightforward as it sounds: Cumul.io “looks up” a specified value in another dataset. A join therefore occurs when the specified value of a field in dataset A is found in another field from Dataset B. 
+
 There are three different kind of joins in Cumul.io 
 
 + Exact match: This is possible when a value in dataset A is exactly the same as in dataset B. For example, this could be a customer ID or reference code that is the same in each of your datasets.
@@ -171,6 +172,7 @@ There are three different kind of joins in Cumul.io
 ##Sharing datasets
  
 Sharing datasets can be done with users or groups that exist within your organization or business. There are several levels of access that users may have. 
+
 + “Viewers” are simply able to view the dataset but cannot use it in a dashboard. 
 + “Can use” means the user is able to use the dataset in a dashboard. 
 + “Edit” means the user can view, use and edit the dataset.
