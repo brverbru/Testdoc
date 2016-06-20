@@ -56,7 +56,6 @@ The dataset tabs displays an overview of your uploaded or connected datasets and
 ##Connecting new datasets
  
 By clicking the bright blue “new dataset” button, you will open a modal window. In this modal you can select the source of your new dataset, which can be either a local file, a web service or a database connection. 
->![Add dataset button](http://i.imgur.com/4VHtAeg.png)
 
  
 ###    Local files
