@@ -21,11 +21,12 @@ Looking for a quick and easy way to get started (or don't want to read the compl
 
 
 ## Registering & sign in
+>![Login modal](http://i.imgur.com/1erdGEf.png)
+
 
 Registering is simple, just leave your name, email address and password and we’ll create an account for you. You’ll be redirected to the platform immediately.<br><br>
 Login is pretty straightforward too, just fill in your credentials or sign in with Google, Facebook or Twitter, if you’ve linked these to your profile.
 
->![Login modal](http://i.imgur.com/1erdGEf.png)
 
 ##Navigation
 
