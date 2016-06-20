@@ -62,15 +62,7 @@ By clicking the bright blue “new dataset” button, you will open a modal wind
  
 You can browse to select local files to upload them unto the platform, or simply drag and drop files into the upload window provided. <br><br>
 Supported file types currently include: <br><br>
-+ CSV 
-+ TSV
-+ JSON
-+ topoJSON
-+ geoJSON
-+ xls
-+ xlsx
-+ xlsb
-+ csb
+CSV, TSV, JSON, topoJSON, geoJSON, xls, xlsx, xlsb, csb
 >![Add Local files](http://i.imgur.com/XGqWqYZ.png?1)
 
 
