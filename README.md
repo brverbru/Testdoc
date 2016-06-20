@@ -177,6 +177,7 @@ Sharing datasets can be done with users or groups that exist within your organiz
 + “Can use” means the user is able to use the dataset in a dashboard. 
 + “Edit” means the user can view, use and edit the dataset.
 + An “owner” can do all of the above and can also adjust the privileges and roles of each dataset user, specifying whether they can view, use, edit or become the owner of a dataset. 
+
 >![Sharing datasets](http://i.imgur.com/jVmlzns.png?1)
 
 
