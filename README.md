@@ -136,11 +136,11 @@ The Derived Column option basically does what it says: it allows new data fields
 
 To get you started, consider some of the following features of our platform. An expression can contain any combination of variables, functions, operators, and columns from the transformation input. The result may either be added as a new column or may be inserted into an existing column as a replacement value. The Derived Column transformation can define multiple derived columns at once, and any variable or input columns can appear in multiple expressions.
 
->This transformation can be used to perform many tasks, some of which are explained in the following examples. 
+It is possible to concatenate data from different columns into a derived column. 
+>For example, say you have a column for “first name” and a column for “last name” and you would like to combine them into one field representing a full name. The values from FirstName and LastName columns can be combined into the single derived column of FullName, by using the expression FirstName + " " + LastName.
 
->It is possible to concatenate data from different columns into a derived column. For example, say you have a column for “first name” and a column for “last name” and you would like to combine them into one field representing a full name. The values from FirstName and LastName columns can be combined into the single derived column of FullName, by using the expression FirstName + " " + LastName.
-
->Mathematical functions can be applied to numeric data and the result can be stored in a derived column. For example, you could change the length and precision of a numeric column, SalesTax, to a number with two decimal places by using the expression ROUND (SalesTax, 2).
+Mathematical functions can be applied to numeric data and the result can be stored in a derived column. 
+>For example, you could change the length and precision of a numeric column, SalesTax, to a number with two decimal places by using the expression ROUND (SalesTax, 2).
 
 
 
