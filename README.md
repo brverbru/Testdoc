@@ -286,14 +286,13 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 + A **streamgraph** is a type of stacked area chart which is displaced around a central axis, resulting in a flowing, organic shape. This can ideally be used to represent the evolution of an overall total over time, as well as the relative contributions of various sub-parts. As an example, consider a company selling multiple smartphone applications to users. The company could use a streamgraph to show the evolution of total application use of users over time, and could differentiate the stream based on the relative use of each individual application.
 
 ###Pie & Donut
+>![Pie and Donut](http://i.imgur.com/SESI8H3.png?1)
+
+>We **CANNOT** recommend pie and donut charts as best practice and they have been criticized by experts. It can be difficult to compare different sections of a pie chart and to make comparisons across different charts. For more info read this [article](https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf) 
+
 + A **Pie chart** is a graph where a circle is divided into sectors that each represent a proportion of the whole. The arc length of each slice is proportional to the value it represent. This type of chart is often used in business and media. 
 
 + A **donut chart** is similar to a pie chart, but can be used to represent more than one data series. Different rings of the donut then represent different datasets. 
-
->![Pie and Donut](http://i.imgur.com/SESI8H3.png?1)
-
-
->We CANNOT recommend pie and donut charts as best practice and they have been criticized by experts. It can be difficult to compare different sections of a pie chart and to make comparisons across different charts. For more info read this [article](https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf) 
 
 
 ###Small Multiples
