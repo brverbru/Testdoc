@@ -46,7 +46,7 @@ On the profile page, you can adjust your personal profile details, add social me
  
 Connecting social media accounts in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.
  
-Your organisation page provides an overview of contacts in your organisation /////ASK KAREL OR HAROEN
+Your organisation page provides an overview of members and contacts in your organisation as well as the possibility to add new members.
  
 The Plans & Billing page allows you to manage your licenses and payment options.
 >Check the available license plans [here](https://cumul.io/pricing)
