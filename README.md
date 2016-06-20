@@ -29,16 +29,19 @@ Login is pretty straightforward too, just fill in your credentials or sign in wi
 
 
 ##Navigation
+>![Overview screenshot](http://i.imgur.com/m1rpojh.png?1)
 
 You’ll first arrive at the overview page, which gives a summary of your latest dashboards as well as the hottest datasets available on the the platform. From here, you can navigate to tabs for your datasets and dashboards if you want to start creating visualizations, or you can access your profile using the top right icon to update personal information. <br><br>
 Under both the datasets and dashboards tab, there are different options for displaying personal data, data shared with you by others, and data available to the public. You will also find a search function to filter your datasets or dashboards using keywords. 
->![Overview screenshot](http://i.imgur.com/m1rpojh.png?1)
+
 
 ##Notifications 
-At any point in the app, you can receive **notifications** by way of the notifications widget, accessible by the icon in the top right of the page, beside your profile. 
 >Notification may include, for example, the status of a dataset upload, or datasets and dashboards that have been shared with you.
 
 >![Notification icon](http://i.imgur.com/bKLLX8I.png)
+
+At any point in the app, you can receive **notifications** by way of the notifications widget, accessible by the icon in the top right of the page, beside your profile. 
+
 
  
  
