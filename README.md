@@ -67,7 +67,9 @@ By clicking the bright blue “new dataset” button, you will open a modal wind
  
 ###    Local files
  
-You can browse to select local files to upload them unto the platform, or simply drag and drop files into the upload window provided. Supported file types currently include: 
+You can browse to select local files to upload them unto the platform, or simply drag and drop files into the upload window provided.
+>![Add Local files](http://i.imgur.com/XGqWqYZ.png?1)
+Supported file types currently include: 
 
 + CSV 
 + TSV
@@ -83,15 +85,11 @@ You can browse to select local files to upload them unto the platform, or simply
 
 ###Web services
  
-Web services integration allows you to fetch data directly from your personal accounts where data is stored. For example, connect to your Facebook or Google Drive account. The first time you connect to each external account, you will be provided with an initial prompt to login with your credentials. 
+Web services integration allows you to fetch data directly from your personal webservices. For example, connect to your Facebook or Google Drive account. The first time you connect to each external account, you will be provided with an initial prompt to login with your credentials. 
+>![Add webservice](http://i.imgur.com/I2D0sEe.png?1)
 
-//TODO
-
-Explain what happens once you link to the account… Does it connect within the platform and provide a list of files? Or is the user directed to an external link
-Unless the process works differently for each type of connection, perhaps it is not really necessary to provide a separate description of each
- 
- 
 ####Quandl
+Quandl delivers financial and economic data from hundreds of sources via their API. Cumul.io organizes all their datasets and automatically converts them in the right datatypes, ready to be blended with your personal data. In order to connect to a Quandl dataset, simply 
 ####Google drive
 ####Google Analytics
  
@@ -133,6 +131,7 @@ The cumul.io platform supports several types of data:
 ##Derived columns
 
 The Derived Column option basically does what it says: it allows new data fields to be derived from your existing data. This is done by way of a “transformation” that creates new column values by applying expressions to the transformation input columns. This process is similar to most spreadsheet operations. 
+>![Derived Columns](http://i.imgur.com/y8dQvNz.png?1)
 
 To get you started, consider some of the following features of our platform. An expression can contain any combination of variables, functions, operators, and columns from the transformation input. The result may either be added as a new column or may be inserted into an existing column as a replacement value. The Derived Column transformation can define multiple derived columns at once, and any variable or input columns can appear in multiple expressions.
 
@@ -143,15 +142,18 @@ Mathematical functions can be applied to numeric data and the result can be stor
 >For example, you could change the length and precision of a numeric column, SalesTax, to a number with two decimal places by using the expression ROUND (SalesTax, 2).
 
 
+##Dataset detail page
 
-##Dataset info page
- 
-Under the Datasets tab you find your list of datasets, and using the icons on the right-hand side of each dataset listed, you can perform simple actions, or you may navigate to the dataset info page. This is where you can find general information on your specific dataset and perform a variety actions. You may see the details of the information stored in the dataset, share it with your team, delete the dataset or upload a newer version. This page also allows you to add tags as well as a description, which is helpful for finding the dataset using the search function. This is especially useful if you decide to publicly publish your dataset, because it enables other users to easily arrive ?? at your data. 
+Under the Datasets tab you find your list of datasets, and using the icons on the right-hand side of each dataset listed, you can perform simple actions, or you may navigate to the dataset info page. This is where you can find general information on your specific dataset and perform a variety actions. You may see the details of the information stored in the dataset, share it with your team, delete the dataset or upload a newer version. 
+>![Dataset detail page](http://i.imgur.com/pGAWdHk.png?1)
+
+>This page also allows you to add tags as well as a description, which is helpful for finding the dataset using the search function. This is especially useful if you decide to publicly publish your dataset, because it enables other users to easily find your data. 
 
  
 ##Joins & Links
 
 In order to blend datasets together, you must first specify how different datasets are linked. Therefore, find the links modal option within your dataset view. As with most operations in Cumul.io, you can create a link by dragging the foreign key (of your lookup table) to the primary key (of your master table). Yes, the overall principle is as simple as that! However, let’s talk about some of the details of how the platform performs the links.
+>![Joinsandlinks](http://i.imgur.com/quvhQpT.png?1)
 
 Joins and links are done using the LOOKUP principle, which is as straightforward as it sounds: Cumul.io “looks up” a specified value in another dataset. A join therefore occurs when the specified value of a field in dataset A is found in another field from Dataset B. 
 There are three different kind of joins in Cumul.io 
