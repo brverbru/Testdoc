@@ -13,7 +13,7 @@ Welcome to Cumul.io! You’ve definitely made the right choice in signing up! Yo
 
 
 Looking for a quick and easy way to get started (or don't want to read the complete guide) ? Check out of our getting started tutorials! 
->Getting started with the [dashboard editor](https://www.youtube.com/watch?v=33Rq0s9QqJU)?
+>Tutorial 1: Getting started with the [dashboard editor](https://www.youtube.com/watch?v=33Rq0s9QqJU).
 
 
 ## Registering & sign in
