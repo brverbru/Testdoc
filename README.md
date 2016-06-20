@@ -9,7 +9,7 @@ Welcome to Cumul.io! You’ve definitely made the right choice in signing up! Yo
 
 
 # Getting started
-## Quick start
+## Quick start tutorials
 
 
 Looking for a quick and easy way to get started (or don't want to read the complete guide)? Check out of our getting started tutorial videos! 
