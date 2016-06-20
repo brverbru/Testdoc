@@ -93,15 +93,16 @@ Quandl delivers financial and economic data from hundreds of sources via their A
 
 ####Google drive
 ####Google Analytics
+####Salesforce
+####MailChimp
  
 ###From a data source
 
-Data source integration enables you to connect to an external data server, such as SQL Server or Oracle. 
-More details about how this connection process works?
+Data source integration enables you to connect to an external database. 
 
 ####Postgres
-####SQL server
-####DB2
+####MySQL
+####Maria DB
  
 ###Using the API
 The Cumul.io API makes it possible to interact with Cumul.io in a programmatic way, for example to create datasets and dashboards, push real-time data, develop your own custom integrations to data sources or retrieve sliced & diced, aggregated data from your datasets.
