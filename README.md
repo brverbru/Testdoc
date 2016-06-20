@@ -1,6 +1,5 @@
 # Cumul.io User Guide
 
-Welcome to Cumul.io! You’ve definitely made the right choice in signing up! You’re now on your way to having control over your data and being able to gain meaningful insights in a safe, simple and manageable way. That’s a nice feeling, right?
 >These are the user docs! Switch to the [API docs](https://www.google.com)?
 
 >Can’t find what you were looking for in our guidelines? Drop us an email at **support@cumul.io** and we’ll help you out asap. 
@@ -8,14 +7,19 @@ Welcome to Cumul.io! You’ve definitely made the right choice in signing up! Yo
 >Alternatively you can **live chat** with our support team or leave feedback/report bugs using the square tabs that appear on the left-hand side of the webpage.
 
 
+Welcome to Cumul.io! You’ve definitely made the right choice in signing up! You’re now on your way to having control over your data and being able to gain meaningful insights in a safe, simple and manageable way. That’s a nice feeling, right?
+
+
+
 # Getting started
 ## Quick start tutorials
 
-
-Looking for a quick and easy way to get started (or don't want to read the complete guide)? Check out our getting started tutorial videos! 
 >**Tutorial 1**: Getting started with the dashboard editor.
 
 >[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/33Rq0s9QqJU/0.jpg)](https://www.youtube.com/watch?v=33Rq0s9QqJU)
+
+Looking for a quick and easy way to get started (or don't want to read the complete guide)? Check out our getting started tutorial videos! 
+
 
 
 
@@ -47,11 +51,13 @@ At any point in the app, you can receive **notifications** by way of the notific
  
 ##Profile & profile details
 
+>![profile page](http://i.imgur.com/GxF8CoZ.png?1)
+
 On the profile page, you can adjust your personal profile details, add social media accounts, manage your organization or business, and access your billing plans. <br><br>
 Connecting social media accounts in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.<br><br>
 Your organization page provides an overview of members and contacts in your organization as well as the possibility to add new members.<br><br>
 The Plans & Billing page allows you to manage your licenses and payment options.
->![profile page](http://i.imgur.com/GxF8CoZ.png?1)
+
 
 >Check the available license plans [here](https://cumul.io/pricing)
 
