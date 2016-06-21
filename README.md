@@ -53,9 +53,13 @@ At any point in the app, you can receive **notifications** by way of the notific
 
 >![profile page](http://i.imgur.com/GxF8CoZ.png?1)
 
-On the profile page, you can adjust your personal profile details, add social media accounts, manage your organization or business, and access your billing plans. <br><br>
-Connecting social media accounts in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.<br><br>
-Your organization page provides an overview of members and contacts in your organization as well as the possibility to add new members.<br><br>
+On the profile page, you can adjust your personal profile details, add social media accounts, manage your organization or business, and access your billing plans.
+
+Connecting social media accounts in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.
+
+Your organization page provides an overview of members and contacts in your organization as well as the possibility to add new members.
+
+
 The Plans & Billing page allows you to manage your licenses and payment options.
 
 
@@ -155,9 +159,9 @@ Furthermore, you can navigate to the dataset detail page, manage datasets links 
 
 The cumul.io platform supports several types of data: 
 
-+ **Numeric data** is information of a measurable form. It is always collected in number form, although there are other types of data that can appear in number form. An example of numerical data would be the number of software licenses sold by a company in one month. You can perform almost any mathematical operation on numeric data, you can arrange it in ascending or descending order, and the answers must be able to be represented in fraction or decimal form. 
++ **Numeric data** is information of a measurable form. It is always collected in number form, although there are other types of data that can appear in number form. You can perform almost any mathematical operation on numeric data, you can arrange it in ascending or descending order, and the answers must be able to be represented in fraction or decimal form. 
 
-+ **Hierarchical data** is a set of items that are related to each other by relationships containing hierarchy. Its structure uses a one-to-many relationship for data elements, consisting of a tree structure that links a number of separate elements to one "parent" primary record. As an example, consider a company consisting of individual employees that each report to a given department. The department is then considered the parent record and the individual employees are then secondary records, each one linking back to its respective department, or parent record.
++ **Hierarchical data** is the Cumul.io standard data type. The hierarchical data structure uses a one-to-many relationship for data elements, consisting of a tree structure that links a number of separate elements to one "parent" primary record. Any text column is considered as an hierarchical data type, initially with two levels. Level 0 represents all values while level 1 consists of the different values.
 
 + **Datetime data** can combine both a date and a time. It stores chronological information such as month, day, year, hours, minutes, and seconds. This consists of numerical data stored in a specific format; for example, 'YYYY-MM-DD HH:MM:SS' to represent the year, month, date, hour, minutes, and seconds, in that order. 
 
@@ -167,12 +171,18 @@ The cumul.io platform supports several types of data:
 
 >![Derived Columns](http://i.imgur.com/y8dQvNz.png?1)
 
-The Derived Column option basically does what it says: it allows new data fields to be derived from your existing data. This is done by way of a “transformation” that creates new column values by applying expressions to the transformation input columns. This process is similar to most spreadsheet operations. <br><br>
-To get you started, consider some of the following features of our platform. An expression can contain any combination of variables, functions, operators, and columns from the transformation input. The result may either be added as a new column or may be inserted into an existing column as a replacement value. The Derived Column transformation can define multiple derived columns at once, and any variable or input columns can appear in multiple expressions. <br><br>
-It is possible to concatenate data from different columns into a derived column. <br><br>
-For example, say you have a column for “first name” and a column for “last name” and you would like to combine them into one field representing a full name. The values from FirstName and LastName columns can be combined into the single derived column of FullName, by using the expression FirstName + " " + LastName.<br><br>
-Mathematical functions can be applied to numeric data and the result can be stored in a derived column. <br><br>
-For example, you could change the length and precision of a numeric column, SalesTax, to a number with two decimal places by using the expression ROUND (SalesTax, 2).
+The Derived Column option basically does what it says: it allows new data fields to be derived from your existing data. This is done by way of a “transformation” that creates new column values by applying expressions to the transformation input columns. This process is similar to most spreadsheet operations. 
+
+To get you started, consider some of the following features of our platform. An expression can contain any combination of variables, functions, operators, and columns from the transformation input. The result may either be added as a new column or may be inserted into an existing column as a replacement value. The Derived Column transformation can define multiple derived columns at once, and any variable or input columns can appear in multiple expressions.
+
+It is possible to concatenate data from different columns into a derived column. 
+
+>For example, say you have a column for “first name” and a column for “last name” and you would like to combine them into one field representing a full name. The values from FirstName and LastName columns can be combined into the single derived column of FullName, by using the expression FirstName + " " + LastName.
+
+
+Mathematical functions can be applied to numeric data and the result can be stored in a derived column.
+
+>For example, you could change the length and precision of a numeric column, SalesTax, to a number with two decimal places by using the expression ROUND (SalesTax, 2).
 
 
 
