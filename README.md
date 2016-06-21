@@ -103,13 +103,16 @@ Web services integration allows you to fetch data directly from your personal we
 
 ####Quandl
 
->![Quandl](http://i.imgur.com/nw3lU1H.png?1)
-
-Quandl delivers financial and economic data from hundreds of sources via their API. Cumul.io organizes all their datasets and automatically converts them in the right datatypes, ready to be blended with your personal data. In order to connect to a Quandl dataset, simply search for it and click the upload button. We'll take it from here. 
-
+Quandl delivers financial and economic data from hundreds of sources via their API. Cumul.io prepares all their datasets automatically in the right datatypes, ready to be blended with your personal data. In order to connect to a Quandl dataset, simply search for it and click the upload button. We'll take it from here.
 
 ####Google drive
+
+You can authorize Cumul.io to access datasets on your Google Drive. After uploading a Google Drive dataset, you can specify it's synchronization time interval in the dataset details page. This is especially useful for datasets who update in time. 
+
 ####Google Analytics
+
+
+
 ####Salesforce
 ####MailChimp
  
@@ -118,7 +121,11 @@ Quandl delivers financial and economic data from hundreds of sources via their A
 Data source integration enables you to connect to an external database. 
 
 ####Postgres
+
+
 ####MySQL
+
+
 ####Maria DB
  
 ###Using the API
@@ -133,8 +140,13 @@ The Cumul.io API makes it possible to interact with Cumul.io in a programmatic w
 
 >![Dataset page](http://i.imgur.com/QHDgkNF.png?1)
 
-Selecting a dataset will direct you to its contents and structure. Each column displayed is a field, and each row represents one record. The charts at the top of each column show the distribution of the data contained in the field. The search function enables you to quickly find specific values. You can change the data type by selecting the data icon displayed to the left of each field name. You can edit the hierarchy, calculate a derived column or delete the row by selecting the options icon at the right of each data distribution display. 
+Selecting a dataset will direct you to its contents and structure. Each column displayed is a field, and each row represents one record. The charts at the top of each column show the distribution of the data contained in the field. 
 
+The search function enables you to quickly find specific values. 
+
+You can change the data type by selecting the data icon displayed to the left of each field name. 
+
+You can edit the hierarchy, calculate a derived column or delete the row by selecting the options icon at the right of each data distribution display. 
 
 Furthermore, you can navigate to the dataset detail page, manage datasets links or share the dataset by clicking the respective links in the top right of the screen.
 
