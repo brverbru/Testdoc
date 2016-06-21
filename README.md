@@ -171,7 +171,11 @@ The cumul.io platform supports several types of data:
 
 >![Derived Columns](http://i.imgur.com/y8dQvNz.png?1)
 
-The Derived Column option basically does what it says: it allows new data fields to be derived from your existing data. This is done by way of a “transformation” that creates new column values by applying expressions to the transformation input columns. This process is similar to most spreadsheet operations. 
+The Derived Column option basically does what it says: it allows new data fields to be derived from your existing data. 
+
+This is done by way of a “transformation” that creates new column values by applying expressions to the transformation input columns.
+
+This process is similar to most spreadsheet operations. 
 
 <!--To get you started, consider some of the following features of our platform. An expression can contain any combination of variables, functions, operators, and columns from the transformation input. The result may either be added as a new column or may be inserted into an existing column as a replacement value. The Derived Column transformation can define multiple derived columns at once, and any variable or input columns can appear in multiple expressions.
 
