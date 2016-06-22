@@ -55,7 +55,7 @@ At any point in the app, you can receive **notifications** by way of the notific
 
  
  
-##Profile & profile details
+##Profile
 
 >![profile page](http://i.imgur.com/GxF8CoZ.png?1)
 
@@ -79,7 +79,7 @@ The **dataset tab** displays an overview of your uploaded or connected datasets 
 
 
 
-##Connecting new datasets
+##Connecting datasets
  
 By clicking the bright blue “new dataset” button, you will open a modal window. In this modal you can select the source of your new dataset, which can be either a local file, a web service or a database connection. 
 
@@ -126,7 +126,7 @@ You can authorize Cumul.io to access datasets on your Google Drive. After upload
 ####Salesforce
 ####MailChimp
  
-###From a data source
+###Data sources
 
 Data source integration enables you to connect to an external database. 
 
@@ -138,7 +138,7 @@ Data source integration enables you to connect to an external database.
 
 ####Maria DB
  
-###Using the API
+###API
 
 >Read the complete API documentation [here](http://docs.cumul.io) 
 
