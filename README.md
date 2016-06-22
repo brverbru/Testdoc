@@ -219,6 +219,7 @@ Joins and links are done using the **LOOKUP principle**, which is as straightfor
 How do you do it? Simply drag the foreign key (of your lookup table) to the primary key (of your master table). Yes, the overall principle is as simple as that!
 
 There are three different kind of joins in Cumul.io 
+
  + **Exact **: This is possible when a value in dataset A is exactly the same as in dataset B. For example, this could be a customer ID or reference code that is the same in each of your datasets.
  + **Fuzzy match**: This option is used when a value in dataset A is very similar to the corresponding value in dataset B. For example, if customer names are filled in manually and some typing errors were made, a match can still be found.
  + **Time match**: This joins datetime values of dataset A to dataset B, with the option of defining the match in different ways. After creating your link in the modal, the following options can be chosen by selecting the icon on your link. 
