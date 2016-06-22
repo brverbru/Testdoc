@@ -35,8 +35,14 @@ Login is pretty straightforward too, just fill in your credentials or sign in wi
 ##Navigation
 >![Overview screenshot](http://i.imgur.com/m1rpojh.png?1)
 
-You’ll first arrive at the overview page, which gives a summary of your latest dashboards as well as the hottest datasets available on the the platform. From here, you can navigate to tabs for your datasets and dashboards if you want to start creating visualizations, or you can access your profile using the top right icon to update personal information. <br><br>
-Under both the datasets and dashboards tab, there are different options for displaying personal data, data shared with you by others, and data available to the public. You will also find a search function to filter your datasets or dashboards using keywords. 
+You’ll first arrive at the **overview page**, which gives a summary of your latest dashboards as well as the hottest datasets available on the the platform.
+
+From here, you can navigate to **tabs for your datasets and dashboards** if you want to start creating visualizations, or you can access your **profile** using the top right icon to update personal information. 
+
+
+Under both the datasets and dashboards tab, there are different options for displaying personal data, data shared with you by others, and data available to the public. 
+
+You will also find a **search function** to filter your datasets or dashboards using keywords. 
 
 
 ##Notifications 
@@ -53,23 +59,23 @@ At any point in the app, you can receive **notifications** by way of the notific
 
 >![profile page](http://i.imgur.com/GxF8CoZ.png?1)
 
-On the profile page, you can adjust your personal profile details, add social media accounts, manage your organization or business, and access your billing plans.
+On the **profile page**, you can adjust your personal profile details, add social media accounts, manage your organization or business, and access your billing plans.
 
-Connecting social media accounts in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.
+Connecting **social media accounts** in the Social Accounts tab allows you to share your dashboards without the need to login on an external site.
 
-Your organization page provides an overview of members and contacts in your organization as well as the possibility to add new members.
+Your **organization page** provides an overview of members and contacts in your organization as well as the possibility to add new members.
 
 
-The Plans & Billing page allows you to manage your licenses and payment options.
+The **Plans & Billing page** allows you to manage your licenses and payment options.
 
 
 >Check the available license plans [here](https://cumul.io/pricing)
 
-#Datasets Tab
+#Datasets
 
 >![Dataset tab](http://i.imgur.com/EaMLvz4.png?1)
  
-The dataset tabs displays an overview of your uploaded or connected datasets and allows you to add new datasets. You can search for datasets here as well.
+The **dataset tab** displays an overview of your uploaded or connected datasets and allows you to add new datasets. You can search for datasets here as well.
 
 
 
@@ -107,11 +113,11 @@ Web services integration allows you to fetch data directly from your personal we
 
 ####Quandl
 
-Quandl delivers financial and economic data from hundreds of sources via their API. Cumul.io prepares all their datasets automatically in the right datatypes, ready to be blended with your personal data. In order to connect to a Quandl dataset, simply search for it and click the upload button. We'll take it from here.
+Quandl delivers **financial and economic data** from hundreds of sources via their API. Cumul.io converts all their datasets automatically in the right datatypes, ready to be blended with your personal data. In order to connect to a Quandl dataset, simply search for it and click the upload button. We'll take it from here.
 
 ####Google drive
 
-You can authorize Cumul.io to access datasets on your Google Drive. After uploading a Google Drive dataset, you can specify it's synchronization time interval in the dataset details page. This is especially useful for datasets who update in time. 
+You can authorize Cumul.io to access datasets on your Google Drive. After uploading a Google Drive dataset, you can specify it's synchronization time interval in the dataset details page. This is especially useful for datasets which update in time. 
 
 ####Google Analytics
 
@@ -144,13 +150,13 @@ The Cumul.io API makes it possible to interact with Cumul.io in a programmatic w
 
 >![Dataset page](http://i.imgur.com/QHDgkNF.png?1)
 
-Selecting a dataset will direct you to its contents and structure. Each column displayed is a field, and each row represents one record. The charts at the top of each column show the distribution of the data contained in the field. 
+Selecting a dataset will direct you to its **contents and structure**. Each column displayed is a field, and each row represents one record. The charts at the top of each column show the distribution of the data contained in the field. 
 
-The search function enables you to quickly find specific values. 
+The **search function** enables you to quickly find specific values. 
 
-You can change the data type by selecting the data icon displayed to the left of each field name. 
+You can **change the data type** by selecting the data icon displayed to the left of each field name. 
 
-You can edit the hierarchy, calculate a derived column or delete the row by selecting the options icon at the right of each data distribution display. 
+You can **edit the hierarchy**, calculate a **derived column** or **delete** the row by selecting the options icon at the right of each data distribution display. 
 
 Furthermore, you can navigate to the dataset detail page, manage datasets links or share the dataset by clicking the respective links in the top right of the screen.
 
@@ -161,7 +167,8 @@ The cumul.io platform supports several types of data:
 
 + **Numeric data** is information of a measurable form. It is always collected in number form, although there are other types of data that can appear in number form. You can perform almost any mathematical operation on numeric data, you can arrange it in ascending or descending order, and the answers must be able to be represented in fraction or decimal form. 
 
-+ **Hierarchical data** is the Cumul.io standard data type. The hierarchical data structure uses a one-to-many relationship for data elements, consisting of a tree structure that links a number of separate elements to one "parent" primary record. Any text column is considered as an hierarchical data type, initially with two levels. Level 0 represents all values while level 1 consists of the different values.
++ **Hierarchical data** is the Cumul.io standard data type. The hierarchical data structure uses a one-to-many relationship for data elements, consisting of a tree structure that links a number of separate elements to one "parent" primary record. Any text column is considered as an hierarchical data type, initially with two levels. 
+<!-- Level 0 represents all values while level 1 consists of the different values. -->
 
 + **Datetime data** can combine both a date and a time. It stores chronological information such as month, day, year, hours, minutes, and seconds. This consists of numerical data stored in a specific format; for example, 'YYYY-MM-DD HH:MM:SS' to represent the year, month, date, hour, minutes, and seconds, in that order. 
 
@@ -194,18 +201,31 @@ Mathematical functions can be applied to numeric data and the result can be stor
 
 >![Dataset detail page](http://i.imgur.com/pGAWdHk.png?1)
 
-Under the Datasets tab you find your list of datasets, and using the icons on the right-hand side of each dataset listed, you can perform simple actions, or you may navigate to the dataset info page. This is where you can find general information on your specific dataset and perform a variety actions. You may see the details of the information stored in the dataset, share it with your team, delete the dataset or upload a newer version. <br><br>
-This page also allows you to add tags as well as a description, which is helpful for finding the dataset using the search function. This is especially useful if you decide to publicly publish your dataset, because it enables other users to easily find your data. 
+Under the **Datasets tab** you find your list of datasets, and using the icons on the right-hand side of each dataset listed, you can perform simple actions, or you may navigate to the dataset info page. 
+
+This is where you can find general information on your specific dataset and perform a variety actions. You may see the details of the information stored in the dataset, share it with your team, delete the dataset or upload a newer version. 
+
+This page also allows you to add tags as well as a description, which is helpful for finding the dataset using the search function. This is especially useful if you decide to publicly publish your dataset. 
 
  
 ##Joins & Links
 
 >![Joinsandlinks](http://i.imgur.com/quvhQpT.png?1)
 
-In order to blend datasets together, you must first specify how different datasets are linked. Therefore, find the links modal option within your dataset view. As with most operations in Cumul.io, you can create a link by dragging the foreign key (of your lookup table) to the primary key (of your master table). Yes, the overall principle is as simple as that! However, let’s talk about some of the details of how the platform performs the links. <br><br> Joins and links are done using the LOOKUP principle, which is as straightforward as it sounds: Cumul.io “looks up” a specified value in another dataset. A join therefore occurs when the specified value of a field in dataset A is found in another field from Dataset B.
+In order to blend datasets together, you must first specify how different datasets are linked. As with most operations in Cumul.io, you can create a link with a simple drag-&-drop gesture. 
 
+Joins and links are done using the **LOOKUP principle**, which is as straightforward as it sounds: Cumul.io “looks up” a specified value in another dataset. A join therefore occurs when the specified value of a field in dataset A is found in another field from Dataset B.
 
-There are three different kind of joins in Cumul.io <br><br> <ul><li>Exact match: This is possible when a value in dataset A is exactly the same as in dataset B. For example, this could be a customer ID or reference code that is the same in each of your datasets.</li><li>Fuzzy match: This option is used when a value in dataset A is very similar to the corresponding value in dataset B. For example, if customer names are filled in manually and some typing errors were made, a match can still be found.</li><li>Time match: This joins datetime values of dataset A to dataset B, with the option of defining the match in different ways. After creating your link in the modal, the following options can be chosen by selecting the icon on your link. </li><ul><li>Value A is closest to a datetime Value B</li><li>Value A is closest to, but occurring after a datetime Value B</li><li>Value A is closest to, but occurring before a datetime Value B </li></ul></ul>
+How do you do it? Simply drag the foreign key (of your lookup table) to the primary key (of your master table). Yes, the overall principle is as simple as that!
+
+There are three different kind of joins in Cumul.io 
+ + **Exact **: This is possible when a value in dataset A is exactly the same as in dataset B. For example, this could be a customer ID or reference code that is the same in each of your datasets.
+ + **Fuzzy match**: This option is used when a value in dataset A is very similar to the corresponding value in dataset B. For example, if customer names are filled in manually and some typing errors were made, a match can still be found.
+ + **Time match**: This joins datetime values of dataset A to dataset B, with the option of defining the match in different ways. After creating your link in the modal, the following options can be chosen by selecting the icon on your link. 
+  + Value A is closest to a datetime Value B
+  + Value A is closest to, but occurring after a datetime Value B
+  + Value A is closest to, but occurring before a datetime Value B 
+  
 
 
  
@@ -215,28 +235,28 @@ There are three different kind of joins in Cumul.io <br><br> <ul><li>Exact match
  
 Sharing datasets can be done with users or groups that exist within your organization or business. There are several levels of access that users may have. 
 
-+ “Viewers” are simply able to view the dataset but cannot use it in a dashboard. 
-+ “Can use” means the user is able to use the dataset in a dashboard. 
-+ “Edit” means the user can view, use and edit the dataset.
-+ An “owner” can do all of the above and can also adjust the privileges and roles of each dataset user, specifying whether they can view, use, edit or become the owner of a dataset. 
++ **“Viewers”** are simply able to view the dataset but cannot use it in a dashboard. 
++ **“Can use”** means the user is able to use the dataset in a dashboard. 
++ **“Edit”** means the user can view, use and edit the dataset.
++ An **“owner”** can do all of the above and can also adjust the privileges and roles of each dataset user, specifying whether they can view, use, edit or become the owner of a dataset. 
 
 
 
 
-#Dashboards Tab
+#Dashboards
 
-The dashboards tab displays your latest dashboard, dashboards that have been shared with you or dashboards that are shared publicly. This tab is your gateway to the dashboard editor, which what you connect to from the bright blue “New dashboard” button. This is where you can start what you’ve been waiting to do, creating visualizations of your data! Read on in the following sections to find out all about the Dashboard editor.
+The **dashboards tab** displays your latest dashboard, dashboards that have been shared with you or dashboards that are shared publicly. 
 
+This tab is your gateway to the dashboard editor, which what you connect to from the bright blue **“New dashboard”** button. This is where you can start what you’ve been waiting to do, creating visualizations of your data! 
+
+
+##Dashboard editor
  
-#Dashboard editor
- 
-##Navigation
-
 The dashboard editor… This is where the fun begins! Let’s get started actually gaining insights to your data! 
 
-There are three main parts to the dashboard editor: the items bar on the left, the canvas in the middle and the settings tab on the right. Let’s get some explanations about all the panes and extra buttons. 
+There are three main parts to the dashboard editor: the **items bar** on the left, the **canvas** in the middle and the **settings tab** on the right. Let’s get some explanations about all the panes and extra buttons. 
 
-##Items pane
+##Items 
  
 Selecting ‘add item’ on left-hand pane will display the different items you can drag and drop into the canvas. There are general items, filters, classic charts, maps and more complex charts. We will discuss each object in more detail:
 
@@ -251,7 +271,9 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 
 + A **Number** object shows a key figure or number. This object has different themes of styling available. 
 
-+ A **Table object** adds a table to the canvas. A **pivot table** allows you to make a table based on datasets linked to one another. If the datasets are not already linked, you will get a prompt to do so when you add a column from a different dataset to the pivot table.
++ A **Table object** adds a table to the canvas. 
+
++ A **pivot table** allows you to make a table based on datasets linked to one another. 
 
 + A **spacer** allows you to create self-defined gaps between the items in your dashboard, allowing for a more attractive layout organization.
 
@@ -263,7 +285,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 
 + A **date slider** performs the same operation as a date filter, but it creates a module allowing the user or viewer to adjust the time period of the date filter interactively.
 
-+ A **search box** allows viewers to search for a specific dimension in the data, and filter results to just this dimension. For example, for items explaining the volume of sales for all products over time, a one could search for a specific product, in order to only display this product in the graphs. 
++ A **search box** allows viewers to search for a specific dimension in the data, and filter results to just this dimension. <!-- For example, for items explaining the volume of sales for all products over time, a one could search for a specific product, in order to only display this product in the graphs. -->
 
 + A **select box** lets the viewer select a dimension from a drop-down menu. 
 
@@ -274,7 +296,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 
 + A **bar chart** is a graph that displays grouped data using rectangular bars. The lengths of the bars are proportional to the values that they represent. 
 
-+ Group **bar charts** are a way of representing or comparing information on different sub-groups within the main categories. For example, volume of sales for a product can be divided into the age groups that purchases them. 
++ **Grouped bar charts** are a way of representing or comparing information on different sub-groups within the main categories. For example, volume of sales for a product can be divided into the age groups that purchases them. 
 
 + The **stacked bar chart** depicts items stacked side-by-side, differentiated by colored bars or strips. A stacked graph is useful for looking at changes in, for example, expenditures added up over time, or across several products and services. The graph integrates different data sets to create a richer picture of (the sum of) changes.
 
@@ -303,7 +325,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 ###Area Charts
 >![Area Charts](http://i.imgur.com/oR4ElZE.png?1)
 
-+ An area chart is simply a line chart with the area below the line filled in. This is best used to display the cumulative volume of a variable over time. 
++ An **area chart** is simply a line chart with the area below the line filled in. This is best used to display the cumulative volume of a variable over time. 
 
 + A **stacked area chart** is then useful to display the contribution of different values to an overall total over time or as a function of another variable. As an example, Cumul.io can analyze its number of customers over time, differentiated by the sector they work in, such as marketing, private commerce, geographic analysis, socio-economic analysis, etc. 
 
@@ -318,7 +340,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 
 + A **Pie chart** is a graph where a circle is divided into sectors that each represent a proportion of the whole. The arc length of each slice is proportional to the value it represent. This type of chart is often used in business and media. 
 
-+ A **donut chart** is similar to a pie chart, but can be used to represent more than one data series. Different rings of the donut then represent different datasets. 
++ A **donut chart** is similar to a pie chart. <!--, but can be used to represent more than one data series. Different rings of the donut then represent different datasets. -->
 
 
 ###Small Multiples
@@ -332,7 +354,7 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 
 + A **cloropleth map** uses variations in shading or coloring over a predefined area in order to explain the average values of a variable in that area. For example, the average unemployment in each province in Belgium can be displayed, using a shading percentage that is proportional to the unemployment level. 
 
-+ **Symbol maps** will scale the size of a simple symbol (for example, a circle or square) in a proportional way to the value found at that location. The symbol can be scaled to the exact value, or can be graduated based on the different categories the value may fall into. Proportional symbol maps may be preferred over dot density maps because it is easier for viewers to quickly gain insights from the map since estimating the size of a symbol is less tedious than counting many little dots. An advantage of proportional symbol maps over choropleth maps is that the size of the areal unit plays less of a role. For example, consider population density. If a country with a small geographic area, such as Belgium, has a large associated value, it will have a large symbol over it. On a choropleth map, however, smaller places are easily overlooked on a complex border map, such as, in this case, Europe. No matter what color is assigned to countries, the larger areas on the map, such as nearby France and Germany, still dominate when a user is visually inspecting the map. Therefore smaller countries with higher population densities can be overlooked. 
++ **Symbol maps** will scale the size of a simple symbol in a proportional way to the value found at that location. <!-- The symbol can be scaled to the exact value, or can be graduated based on the different categories the value may fall into. Proportional symbol maps may be preferred over dot density maps because it is easier for viewers to quickly gain insights from the map since estimating the size of a symbol is less tedious than counting many little dots. --> An advantage of proportional symbol maps over choropleth maps is that the size of the areal unit plays less of a role. For example, consider population density. If a country with a small geographic area, such as Belgium, has a large associated value, it will have a large symbol over it. On a choropleth map, however, smaller places are easily overlooked on a complex border map, such as, in this case, Europe. No matter what color is assigned to countries, the larger areas on the map, such as nearby France and Germany, still dominate when a user is visually inspecting the map. Therefore smaller countries with higher population densities can be overlooked. 
 
 + A **marker map** simply uses a predefined symbol to display locations. This can be helpful, for example, if a company wants to show users where they are present in the world by showing the locations of offices in New York City, Brussels, and Hong Kong. 
 
@@ -381,45 +403,60 @@ Selecting ‘add item’ on left-hand pane will display the different items you 
 + **Kagi chart**: Coming soon to Cumul.io!
 
 
-## Settings Pane
+## Settings
 
 >![Settings](http://i.imgur.com/E6lHObQ.png?1)
 
-The general dashboard settings can be found in the taskbar pane in the right-most tab (you guessed it, the settings tab). These settings are applicable to the entire dashboard. You can enable or disable a dashboard (sub)title here, specify the margin between objects, and do all kinds of other things as well. Explore the options for yourself! <br><br>
-These settings are valid for the complete dashboard and all of its views (desktop, tablet, mobile) except if you have unsynced the different views. We’ll get to that. <br><br>
-As with the settings tab, the filters tab makes changes that are applicable to the complete dashboard. This means that if you filter out certain records here, they will never be shown or taken into account for any item you place in your dashboard. <br><br>
-Any field of any dataset can be filtered, as long as the dataset is being used in the dashboard. Possible filters include, but are not limited to, ‘is in’, ‘equals’, ‘is greater than’, ... The usual stuff!<br><br>
-The data tab allows you to navigate to your datasets and add them to the canvas. Simply select a dataset and drag and drop fields to the canvas! <br><br>
-The item tab show you the selected item’s specific settings. These settings involve general things like title, background, and borders, but also displays item-specific settings that influence the visualization. 
+The general dashboard settings can be found in the taskbar pane in the right-most tab (you guessed it, **the settings tab**). These settings are applicable to the entire dashboard. You can enable or disable a dashboard (sub)title here, specify the margin between objects, and do all kinds of other things as well. Explore the options for yourself!
+
+These settings are valid for the complete dashboard and all of its views (desktop, tablet, mobile) except if you have unsynced the different views. We’ll get to that.
+
+As with the settings tab, the **filters tab** makes changes that are applicable to the complete dashboard. This means that if you filter out certain records here, they will never be shown or taken into account for any item you place in your dashboard. 
+
+
+Any field of any dataset can be filtered, as long as the dataset is being used in the dashboard. Possible filters include, but are not limited to, ‘is in’, ‘equals’, ‘is greater than’, ... The usual stuff!
+
+
+The **data tab** allows you to navigate to your datasets and add them to the canvas. Simply select a dataset and drag and drop fields to the item slots!
+
+The **item tab** show you the selected item’s specific settings. These settings involve general things like title, background, and borders, but also displays item-specific settings that influence the visualization. 
 
 
 
- 
- 
+
 ##Canvas
 
 > This drag & drop functionality is illustrated in the following video:  
 
 >[![Screenshot of canvas dashboard](https://img.youtube.com/vi/ex-mOJ_3sns/0.jpg)](https://www.youtube.com/watch?v=ex-mOJ_3sns)
  
-The canvas serves as your ultimate workspace, where you can drop any of the objects you need and start analyzing. Within an object that you add to the canvas, there are different slots into which you can drag data. This generally corresponds to the  ‘X-axis’ (independent variable), the ‘Measure’ (y-axis, or dependent variable), and a ‘group-by’ function allowing further differentiation of the data. Some slots are limited to certain data types. For example, a bar chart, inherent in its definition, is only limited to categorical variables on the y-axis, while the y-axis of line charts can accommodate both continuous and categorical data. 
+The canvas serves as your ultimate workspace, where you can drop any of the objects you need and start analyzing.
+
+Within an object that you add to the canvas, there are different **slots** into which you can drag data. This generally corresponds to the  ‘X-axis’ (independent variable), the ‘Measure’ (y-axis, or dependent variable), and a ‘group-by’ function allowing further differentiation of the data. 
+
+Some slots are limited to certain data types. For example, a bar chart, inherent in its definition, is only limited to categorical variables on the y-axis, while the y-axis of line charts can accommodate both continuous and categorical data. 
 
 On the right hand side of each object, three icons appear that allow the user to 
 
-+ (1) adjust data properties
-+ (2) adjust settings for the object, and 
-+ (3) delete the object entirely. 
++ adjust data properties
++ adjust settings for the object
++ delete the object entirely. 
 
 
  
 ###Screensize views
 
-A the top of the canvas, you can switch views between mobile, tablet and desktop. By default, these three different views are in sync, which means that if you update an object in one of the views, it is automatically updated in the others as well. In the dashboard settings tab you can disable this option, allowing you to create different dashboards for each of the three individual views, without altering the appearance of the others. Alternatively, you can opt for a fixed-width dashboard, which keeps the display of your work at the same width, regardless of the device screen size. 
+At the top of the canvas, you can switch views between mobile, tablet and desktop. 
+
+By default, these three different views are in **sync**, which means that if you update an object in one of the views, it is automatically updated in the others as well. 
+
+In the dashboard view settings you can disable this option, allowing you to create different dashboards for each of the three individual views, without altering the appearance of the others. 
+
+Alternatively, you can opt for a **fixed-width dashboard**, which keeps the display of your work at the same width, regardless of the device screen size. 
  
 ###Sharing dashboard
  
 >![Share dashboard](http://i.imgur.com/gBftuVN.png?1) 
- 
  
 So you’ve gotten your insights ready and created a stunning dashboard? Great! Let’s share it! 
 
@@ -428,14 +465,17 @@ Sharing a dashboard is similar to sharing a dataset. You can share with other Cu
 
 To share a dashboard with groups or users in your organization, select a specific user and assign them the role you allow them to have. There are several levels of access that users may have:
 
-+ “Can view” means the user can view the dashboard but cannot edit or make a duplicate
-+ “Can use” means the user can make a duplicate, but cannot edit the original dashboard
-+ “Can Edit” means the user can view, use and edit the Dashboard
-+ An “owner” can do all of the above and can also adjust the privileges and roles of other dashboard users.
++ **“Can view”** means the user can view the dashboard but cannot edit or make a duplicate
++ **“Can use”** means the user can make a duplicate, but cannot edit the original dashboard
++ **“Can Edit”** means the user can view, use and edit the Dashboard
++ An **“owner”** can do all of the above and can also adjust the privileges and roles of other dashboard users.
 
-Publicly sharing a dashboard can be done by ‘Link sharing’. Once this option is turned on, a unique short url is created which redirects the visitor to the published dashboard. Only viewers who receive the URL will be able to view the dashboard. This sharing method is similar to sharing documents with Dropbox, Google Drive or WeTransfer. 
+Publicly sharing a dashboard can be done by **‘Link sharing’**. Once this option is turned on, a unique short url is created which redirects the visitor to the published dashboard. 
+Only viewers who receive the URL will be able to view the dashboard. This sharing method is similar to sharing documents with Dropbox, Google Drive or WeTransfer. 
 
-This method requires the datasets to also be made publicly available (otherwise the dashboard would not be able to query the data). This option does NOT mean the dataset will show up in the Cumul.io public library. 
+This method requires the datasets to also be made publicly available (otherwise the dashboard would not be able to query the data).
+
+This option does **NOT** mean the dataset will show up in the Cumul.io public library. 
 
 Finally, sharing with social media is also possible. With this option a link for the dashboard will be sent to the specified social media platform.
 
