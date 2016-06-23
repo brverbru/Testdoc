@@ -120,22 +120,26 @@ You can authorize Cumul.io to access datasets on your Google Drive. After upload
 
 ####Google Analytics
 
+Documentation coming soon! 
 
-
-####Salesforce
-####MailChimp
  
 ###Data sources
 
-Data source integration enables you to connect to an external database. 
+Data source integrations enables you to connect to an external database. 
 
 ####Postgres
+
+Documentation coming soon! 
 
 
 ####MySQL
 
+Documentation coming soon! 
+
 
 ####Maria DB
+
+Documentation coming soon! 
  
 ###API
 
