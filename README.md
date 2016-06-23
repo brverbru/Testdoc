@@ -1,4 +1,3 @@
-# Cumul.io User Guide
 
 >These are the user docs! Switch to the [API docs](https://www.google.com)?
 
